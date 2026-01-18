@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-<div style="text-align: center;">
+<div align="center">
 
 # Aman Srivastava
 
