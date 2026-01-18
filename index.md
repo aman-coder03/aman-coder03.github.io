@@ -11,7 +11,7 @@ title: About Me
 📍 New Delhi, India  
 
 [GitHub](https://github.com/aman-coder03) · 
-[LinkedIn](https://linkedin.com/in/your-profile) · 
+[LinkedIn](https://linkedin.com/in/aman-srivastava03) · 
 [Mail](mailto:amansri345@gmail.com)
 
 </div>
