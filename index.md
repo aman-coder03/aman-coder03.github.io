@@ -13,8 +13,8 @@ title: About Me
 </p>
 
 <p>
-  <a href="https://github.com/aman-coder03">GitHub</a> ·
-  <a href="https://linkedin.com/in/aman-srivastava03">LinkedIn</a> ·
+  <a href="https://github.com/aman-coder03">GitHub</a> |
+  <a href="https://linkedin.com/in/aman-srivastava03">LinkedIn</a> |
   <a href="mailto:amansri345@gmail.com">Mail</a>
 </p>
 
