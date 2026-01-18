@@ -3,13 +3,18 @@ layout: page
 title: About Me
 ---
 
+<div style="text-align: center;">
+
 # Aman Srivastava
 
-Computer Science | AI/ML | Data Science | 📍 New Delhi, India
+**Computer Science | AI/ML | Data Science**  
+📍 New Delhi, India  
 
-[GitHub](https://github.com/aman-coder03) | 
-[LinkedIn](https://linkedin.com/in/your-profile) | 
+[GitHub](https://github.com/aman-coder03) · 
+[LinkedIn](https://linkedin.com/in/your-profile) · 
 [Mail](mailto:amansri345@gmail.com)
+
+</div>
 
 ---
 
