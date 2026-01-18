@@ -5,14 +5,18 @@ title: About Me
 
 <div align="center">
 
-# Aman Srivastava
+<h1>Aman Srivastava</h1>
 
-**Computer Science | AI/ML | Data Science**  
-📍 New Delhi, India  
+<p>
+  <strong>Computer Science | AI/ML | Data Science</strong><br>
+  📍 New Delhi, India
+</p>
 
-[GitHub](https://github.com/aman-coder03) · 
-[LinkedIn](https://linkedin.com/in/aman-srivastava03) · 
-[Mail](mailto:amansri345@gmail.com)
+<p>
+  <a href="https://github.com/aman-coder03">GitHub</a> ·
+  <a href="https://linkedin.com/in/aman-srivastava03">LinkedIn</a> ·
+  <a href="mailto:amansri345@gmail.com">Mail</a>
+</p>
 
 </div>
 
