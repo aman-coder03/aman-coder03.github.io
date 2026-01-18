@@ -15,7 +15,7 @@ Computer Science | AI/ML | Data Science | 📍 New Delhi, India
 
 Hello! I am a Computer Science student specializing in **Data Science, Artificial Intelligence, and Machine Learning**, with hands-on experience in **NLP systems, automation pipelines, and full-stack AI applications**.
 
-I have worked on building **production-grade ML systems**—from data processing and model fine-tuning to deployment and workflow automation—across academic and real-world environments. My interests include **transformer-based NLP architectures, AI-driven automation, and scalable data systems**.
+I have worked on building **production-grade ML systems** from data processing and model fine-tuning to deployment and workflow automation across academic and real-world environments. My interests include **transformer-based NLP architectures, AI-driven automation, and scalable data systems**.
 
 Beyond technical work, I bring strong **leadership, discipline, and decision-making skills under pressure**, demonstrated through founding and leading student organizations and being **recommended via the SSB for Officer Entry** into the Indian Armed Forces.
 
