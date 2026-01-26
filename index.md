@@ -22,6 +22,12 @@ title: About Me
 
 ---
 
+## 🌐 Open Source Contributions
+
+[View Detailed Contributions →](/open-source)
+
+---
+
 Hello reader! I am a pre-final year Computer Science student specializing in **Data Science, Artificial Intelligence, and Machine Learning**, with hands-on experience in **NLP systems, automation pipelines, and full-stack AI applications**.
 
 I have worked on building **production-grade ML systems** from data processing and model fine-tuning to deployment and workflow automation across academic and real-world environments. My interests include **transformer-based NLP architectures, AI-driven automation, and scalable data systems**.
@@ -74,12 +80,6 @@ Beyond technical work, I bring strong **leadership, discipline, and decision-mak
 **TaskSage – AI Consultant**  
 - Developed an AI-driven task analysis and prioritization system using **LLMs and Streamlit**  
 - Automated task classification and ranking workflows, reducing manual triage time by **80%**
-
----
-
-## 🌐 Open Source Contributions
-
-[View Detailed Contributions →](/open-source)
 
 ---
 
