@@ -18,13 +18,13 @@ title: About Me
   <a href="mailto:amansri345@gmail.com">Mail</a>
 </p>
 
+<h3>🌐 Open Source Contributions</h3>
+
+<p>
+  <a href="/open-source">View Detailed Contributions →</a>
+</p>
+
 </div>
-
----
-
-## 🌐 Open Source Contributions
-
-[View Detailed Contributions →](/open-source)
 
 ---
 
