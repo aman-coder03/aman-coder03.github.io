@@ -1,7 +1,4 @@
----
-layout: page
-title: About Me
----
+
 
 <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
 
