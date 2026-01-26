@@ -25,7 +25,7 @@ Merged: Jan 2026 | v11.0.0
 
 ## AiiDA Core (aiidateam/aiida-core)
 
-### PR #7121 – Downgrade SQLite Lock Warning Level**  
+### PR #7121 – Downgrade SQLite Lock Warning Level
 Merged: Jan 2026  
 
 - Reduced log noise by changing expected SQLite lock logs from `WARNING` → `INFO`
