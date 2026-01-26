@@ -25,88 +25,136 @@
 
 <hr style="margin: 2rem 0;">
 
-Hello reader! I am a pre-final year Computer Science student specializing in **Data Science, Artificial Intelligence, and Machine Learning**, with hands-on experience in **NLP systems, automation pipelines, and full-stack AI applications**.
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
-I have worked on building **production-grade ML systems** from data processing and model fine-tuning to deployment and workflow automation across academic and real-world environments. My interests include **transformer-based NLP architectures, AI-driven automation, and scalable data systems**.
+<p>
+I am a pre-final year Computer Science student specializing in <strong>Data Science, Artificial Intelligence, and Machine Learning</strong>, with hands-on experience building <strong>production-grade NLP systems, automation pipelines, and full-stack AI applications</strong>.
+</p>
 
-Beyond technical work, I bring strong **leadership, discipline, and decision-making skills under pressure**, demonstrated through founding and leading student organizations and being **recommended via the SSB for Officer Entry** into the Indian Armed Forces.
+<p>
+My work spans the full ML lifecycle — from data processing and transformer fine-tuning to deployment, workflow automation, and scalable system design. I am particularly interested in <strong>transformer architectures, AI-driven automation systems, and robust data infrastructure</strong>.
+</p>
 
----
+<p>
+Beyond engineering, I bring strong <strong>leadership, discipline, and decision-making ability under pressure</strong>, demonstrated through founding and leading student organizations and being <strong>recommended via the SSB for Officer Entry</strong> into the Indian Armed Forces.
+</p>
+
+</div>
 
 <h2 style="margin-top:2.5rem;">💼 Experience</h2>
 
-### Indian Institute of Technology Delhi  
-*AI/ML Intern | June 2025 – July 2025*
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-- Built **LibSenti**, a large-scale sentiment intelligence platform analyzing **10,000+ IIT and NIT library reviews**
-- Fine-tuned a **RoBERTa-based transformer model** (PyTorch + Hugging Face) achieving **92% classification accuracy**
-- Designed and deployed an interactive **Streamlit analytics dashboard**, reducing analysis turnaround time by **50%** across **50+ institutions**
-- Automated validation and correction workflows for **15,000+ CMS records**, reducing manual effort by **60%**
+<h3>Indian Institute of Technology Delhi</h3>
+<p><strong>AI/ML Intern | June 2025 – July 2025</strong></p>
 
-<br>
+<ul>
+<li>Built <strong>LibSenti</strong>, a large-scale sentiment intelligence platform analyzing <strong>10,000+ IIT and NIT reviews</strong></li>
+<li>Fine-tuned a <strong>RoBERTa-based transformer model</strong> achieving <strong>92% accuracy</strong></li>
+<li>Deployed a Streamlit analytics dashboard reducing turnaround time by <strong>50%</strong></li>
+<li>Automated workflows for <strong>15,000+ CMS records</strong>, reducing manual effort by <strong>60%</strong></li>
+</ul>
 
-### CEERAS  
-*Software Developer Intern | Feb 2025 – June 2025*
+</div>
 
-- Engineered a **gamified coding platform** used by **1,000+ students**
-- Optimized backend workflows and application logic, improving performance by **15%** and user engagement by **30%**
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<br>
+<h3>CEERAS</h3>
+<p><strong>Software Developer Intern | Feb 2025 – June 2025</strong></p>
 
-### U-Knighted  
-*Founder & President | Jan 2025 – Present*
+<ul>
+<li>Engineered a gamified coding platform used by <strong>1,000+ students</strong></li>
+<li>Improved backend performance by <strong>15%</strong> and user engagement by <strong>30%</strong></li>
+</ul>
 
-- Founded and scaled the College Chess Society to **100+ active members**
-- Organized tournaments and strategic workshops to drive sustained engagement
-- Secured sponsorships and partnerships to support competitive growth
+</div>
 
----
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+
+<h3>U-Knighted</h3>
+<p><strong>Founder & President | Jan 2025 – Present</strong></p>
+
+<ul>
+<li>Scaled the College Chess Society to <strong>100+ active members</strong></li>
+<li>Organized tournaments and strategy workshops</li>
+<li>Secured sponsorships and institutional partnerships</li>
+</ul>
+
+</div>
 
 <h2 style="margin-top:2.5rem;">🧠 Projects</h2>
 
-### CLAMANS – Leave Management System
-- Designed and deployed a **role-based institutional leave management platform** for IIT Delhi’s Central Library
-- Implemented PostgreSQL-backed leave computation logic accounting for **weekends, holidays, and half-day policies**
-- Built OTP-based authentication, SMTP automation workflows, and secure role-based dashboards
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<br>
+<h3>CLAMANS – Leave Management System</h3>
+<ul>
+<li>Designed a role-based institutional leave platform for IIT Delhi</li>
+<li>Implemented PostgreSQL leave computation logic with holiday policies</li>
+<li>Built OTP authentication and SMTP automation workflows</li>
+</ul>
 
-### AutoCatalog
-- Built a **Python + Selenium automation pipeline** for large-scale digital catalog validation
-- Reduced manual verification workload by **70%** and improved metadata accuracy by **60%**
+</div>
 
-<br>
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-### SmartMailer – AI Email Automation
-- Developed an NLP-driven email assistant for automated drafting
-- Reduced user writing time by **75%** and automated **65%** of workflow cases
+<h3>AutoCatalog</h3>
+<ul>
+<li>Built a Selenium-based automation pipeline for catalog validation</li>
+<li>Reduced manual verification by <strong>70%</strong> and improved metadata accuracy by <strong>60%</strong></li>
+</ul>
 
-<br>
+</div>
 
-### LibSenti
-- Designed a transformer-based institutional review intelligence system
-- Enabled real-time sentiment analytics across **50+ academic institutions**
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<br>
+<h3>SmartMailer – AI Email Automation</h3>
+<ul>
+<li>Developed an NLP-powered email assistant</li>
+<li>Reduced drafting time by <strong>75%</strong> and automated <strong>65%</strong> of workflows</li>
+</ul>
 
-### TaskSage – AI Consultant
-- Developed an LLM-powered task classification and prioritization system
-- Reduced manual triage time by **80%**
+</div>
 
----
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
+<h3>LibSenti</h3>
+<ul>
+<li>Built a transformer-based institutional review intelligence system</li>
+<li>Enabled real-time analytics across <strong>50+ institutions</strong></li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+
+<h3>TaskSage – AI Consultant</h3>
+<ul>
+<li>Developed an LLM-powered task prioritization system</li>
+<li>Reduced manual triage time by <strong>80%</strong></li>
+</ul>
+
+</div>
 
 <h2 style="margin-top:2.5rem;">🎓 Education</h2>
 
-**Maharaja Surajmal Institute of Technology (GGSIPU)**  
-*B.Tech in Computer Science Engineering | 2023 – 2027*
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-**DAV Vasant Kunj**  
-*Grade 12 (PCM) | 2022 – 2023*  
-- School Topper in Computer Science  
+<p><strong>Maharaja Surajmal Institute of Technology (GGSIPU)</strong><br>
+B.Tech in Computer Science Engineering | 2023 – 2027</p>
 
----
+<p><strong>DAV Vasant Kunj</strong><br>
+Grade 12 (PCM) | 2022 – 2023<br>
+School Topper in Computer Science</p>
+
+</div>
 
 <h2 style="margin-top:2.5rem;">🏆 Achievements</h2>
 
-- **Globally Selected** – Hacker House 2024, Bangkok, Thailand  
-- **Top 50 out of 500+ teams** – Hack for Impact 2025, IIIT Delhi  
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
+<ul>
+<li><strong>Globally Selected</strong> – Hacker House 2024, Bangkok</li>
+<li><strong>Top 50 / 500+ teams</strong> – Hack for Impact 2025, IIIT Delhi</li>
+</ul>
+
+</div>
