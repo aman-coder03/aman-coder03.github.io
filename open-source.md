@@ -24,18 +24,6 @@ Merged: Jan 2026
 
 ## pvlib (pvlib-python)
 
-### PR #2646 – Fix ZeroDivisionError in transformer.simple_efficiency  
-Merged: Jan 2026 | v0.13.2  
-
-- Rewrote quadratic formulation to avoid division by zero
-- Preserved backward compatibility
-- Added targeted unit tests
-- Updated release notes
-
-[View PR →](https://github.com/pvlib/pvlib-python/pull/2646)
-
----
-
 ### PR #2622 – Documentation Fix  
 Merged: Dec 2025  
 
