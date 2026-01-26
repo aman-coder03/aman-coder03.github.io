@@ -79,10 +79,7 @@ Beyond technical work, I bring strong **leadership, discipline, and decision-mak
 
 ## 🌐 Open Source Contributions
 
-**Open-MSS (MSColab)**  
-- Added non-interactive CLI support using `--yes / -y` flags to enable **CI/CD-compatible workflows**  
-- Refactored confirmation logic while maintaining backward compatibility  
-- Updated official documentation to reflect new CLI functionality  
+[View Detailed Contributions →](/open-source)
 
 ---
 
