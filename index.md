@@ -25,14 +25,14 @@
 
 <hr style="margin: 2rem 0;">
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem; text-align: justify;">
 
 <p>
 I am a pre-final year Computer Science student specializing in <strong>Data Science, Artificial Intelligence, and Machine Learning</strong>, with hands-on experience building <strong>production-grade NLP systems, automation pipelines, and full-stack AI applications</strong>.
 </p>
 
 <p>
-My work spans the full ML lifecycle — from data processing and transformer fine-tuning to deployment, workflow automation, and scalable system design. I am particularly interested in <strong>transformer architectures, AI-driven automation systems, and robust data infrastructure</strong>.
+My work spans the full ML lifecycle from data processing and transformer fine-tuning to deployment, workflow automation, and scalable system design. I am particularly interested in <strong>transformer architectures, AI-driven automation systems, and robust data infrastructure</strong>.
 </p>
 
 <p>
