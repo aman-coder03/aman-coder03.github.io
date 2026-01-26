@@ -1,30 +1,29 @@
----
-layout: page
-title: About Me
----
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
 
-<div align="center">
+<h1 style="margin-bottom: 0.5rem;">Aman Srivastava</h1>
 
-<h1>Aman Srivastava</h1>
-
-<p>
+<p style="font-size: 1.05rem; margin: 0.5rem 0;">
   <strong>Computer Science | AI/ML | Data Science</strong><br>
   📍 New Delhi, India
 </p>
 
-<p>
+<p style="margin: 0.5rem 0;">
   <a href="https://github.com/aman-coder03">GitHub</a> |
   <a href="https://linkedin.com/in/aman-srivastava03">LinkedIn</a> |
   <a href="mailto:amansri345@gmail.com">Mail</a>
 </p>
 
-<h3>🌐 Open Source Contributions</h3>
-
-<p>
-  <a href="/open-source">View Contributions</a>
-</p>
+<div style="margin-top: 1rem;">
+  <a href="/open-source" 
+     style="display:inline-block; padding:8px 16px; border-radius:8px; 
+            background:#eef2ff; text-decoration:none; font-weight:600;">
+     🌐 View Open Source Contributions →
+  </a>
+</div>
 
 </div>
+
+<hr style="margin: 2rem 0;">
 
 ---
 
