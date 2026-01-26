@@ -1,12 +1,6 @@
-title: Aman Srivastava
+title: My Portfolio
 description: AI Systems Engineer | NLP | Scientific Python Contributor
 theme: minima
-
-author:
-  name: Aman Srivastava
-  email: amansri345@gmail.com
-  github: aman-coder03
-  linkedin: aman-srivastava03
 
 collections:
   posts:
