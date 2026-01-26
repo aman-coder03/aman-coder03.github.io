@@ -9,6 +9,20 @@ Contributing to production-grade scientific Python ecosystems focused on workflo
 
 ---
 
+## Open-MSS (Mission Support System)
+
+### PR #2964 – Add `--yes / -y` Flag for Non-Interactive CLI  
+Merged: Jan 2026 | v11.0.0  
+
+- Enabled CI/CD-compatible workflows
+- Extended shared confirmation utility
+- Preserved interactive default behavior
+- Updated official documentation
+
+[View PR →](https://github.com/Open-MSS/MSS/pull/2964)
+
+---
+
 ## AiiDA Core (aiidateam/aiida-core)
 
 **PR #7121 – Downgrade SQLite Lock Warning Level**  
@@ -33,15 +47,3 @@ Merged: Dec 2025
 [View PR →](https://github.com/pvlib/pvlib-python/pull/2622)
 
 ---
-
-## Open-MSS (Mission Support System)
-
-### PR #2964 – Add `--yes / -y` Flag for Non-Interactive CLI  
-Merged: Jan 2026 | v11.0.0  
-
-- Enabled CI/CD-compatible workflows
-- Extended shared confirmation utility
-- Preserved interactive default behavior
-- Updated official documentation
-
-[View PR →](https://github.com/Open-MSS/MSS/pull/2964)
