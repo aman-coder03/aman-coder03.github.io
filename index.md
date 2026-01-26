@@ -21,7 +21,7 @@ title: About Me
 <h3>🌐 Open Source Contributions</h3>
 
 <p>
-  <a href="/open-source">View Detailed Contributions →</a>
+  <a href="/open-source">View Contributions</a>
 </p>
 
 </div>
