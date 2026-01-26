@@ -142,6 +142,8 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <p><strong>Maharaja Surajmal Institute of Technology (GGSIPU)</strong><br>
 B.Tech in Computer Science Engineering | 2023 – 2027</p>
 
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
 <p><strong>DAV Vasant Kunj</strong><br>
 Grade 12 (PCM) | 2022 – 2023<br>
 School Topper in Computer Science</p>
