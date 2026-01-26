@@ -7,13 +7,24 @@ title: Open Source Contributions
 
 <h1 style="margin-bottom:0.5rem;">Open Source Contributions</h1>
 
-<p style="max-width:750px; margin:0 auto;">
-Contributing to <strong>production-grade scientific Python ecosystems</strong> 
-focused on workflow management, numerical modeling, and automation tooling.
+<div style="max-width:750px; margin:0 auto; text-align: justify; line-height:1.7;">
+
+<p>
+Active contributor to <strong>production-grade scientific Python ecosystems</strong>, 
+working on workflow management systems, numerical modeling libraries, and automation tooling used in research and engineering environments.
+</p>
+
+<p>
+My contributions focus on improving <strong>code reliability, numerical stability, logging clarity, CLI usability, and CI/CD compatibility</strong>, ensuring that systems remain robust, maintainable, and developer-friendly.
+</p>
+
+<p>
+Through collaborative open-source development, I prioritize <strong>backward compatibility, clean architecture, and clear documentation</strong>, aligning with maintainers’ standards and production best practices.
 </p>
 
 </div>
 
+</div>
 <hr style="margin:2rem 0;">
 
 <h2 style="margin-top:2.5rem;">Open-MSS (Mission Support System)</h2>
