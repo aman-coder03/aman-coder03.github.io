@@ -19,20 +19,20 @@ Merged: Jan 2026 | v11.0.0
 - Preserved interactive default behavior
 - Updated official documentation
 
-[View PR →](https://github.com/Open-MSS/MSS/pull/2964)
+[View PR](https://github.com/Open-MSS/MSS/pull/2964)
 
 ---
 
 ## AiiDA Core (aiidateam/aiida-core)
 
-**PR #7121 – Downgrade SQLite Lock Warning Level**  
+### PR #7121 – Downgrade SQLite Lock Warning Level**  
 Merged: Jan 2026  
 
 - Reduced log noise by changing expected SQLite lock logs from `WARNING` → `INFO`
 - Preserved warnings for genuine database issues
 - Improved CI and production observability without functional changes
 
-[View PR →](https://github.com/aiidateam/aiida-core/pull/7121)
+[View PR](https://github.com/aiidateam/aiida-core/pull/7121)
 
 ---
 
@@ -44,6 +44,6 @@ Merged: Dec 2025
 - Corrected contributor attribution typo
 - Fixed broken documentation links
 
-[View PR →](https://github.com/pvlib/pvlib-python/pull/2622)
+[View PR](https://github.com/pvlib/pvlib-python/pull/2622)
 
 ---
