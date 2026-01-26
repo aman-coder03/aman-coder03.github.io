@@ -7,11 +7,10 @@ title: Open Source Contributions
 
 <h1 style="margin-bottom:0.5rem;">Open Source Contributions</h1>
 
-<div style="max-width:750px; margin:0 auto; text-align: justify; line-height:1.7;">
+<div style="max-width:850px; margin:0 auto 2rem auto; background:#f9fafb; padding:1.8rem; border-radius:14px; line-height:1.7; text-align: justify;">
 
 <p>
-Active contributor to <strong>production-grade scientific Python ecosystems</strong>, 
-working on workflow management systems, numerical modeling libraries, and automation tooling used in research and engineering environments.
+Active contributor to <strong>production-grade scientific Python ecosystems</strong>, working on workflow management systems, numerical modeling libraries, and automation tooling used in research and engineering environments.
 </p>
 
 <p>
@@ -23,6 +22,7 @@ Through collaborative open-source development, I prioritize <strong>backward com
 </p>
 
 </div>
+
 
 </div>
 <hr style="margin:2rem 0;">
