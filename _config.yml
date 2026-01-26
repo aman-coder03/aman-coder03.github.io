@@ -1,7 +1,0 @@
-title: About Me
-description: AI Systems Engineer | NLP | Scientific Python Contributor
-theme: minima
-
-collections:
-  posts:
-    output: true
