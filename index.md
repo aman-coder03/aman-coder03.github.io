@@ -17,7 +17,7 @@
   <a href="/open-source" 
      style="display:inline-block; padding:8px 16px; border-radius:8px; 
             background:#eef2ff; text-decoration:none; font-weight:600;">
-     🌐 View Open Source Contributions →
+     🌐 View Open Source Contributions
   </a>
 </div>
 
