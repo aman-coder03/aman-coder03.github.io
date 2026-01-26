@@ -1,8 +1,13 @@
-title: Your Name Portfolio
-description: Resume and Technical Blog
-theme: minima  # This is a clean, default GitHub theme
+title: Aman Srivastava
+description: AI Systems Engineer | NLP | Scientific Python Contributor
+theme: minima
 
-# This allows your blog posts to be found by the "for" loop in blog.md
+author:
+  name: Aman Srivastava
+  email: amansri345@gmail.com
+  github: aman-coder03
+  linkedin: aman-srivastava03
+
 collections:
   posts:
     output: true
