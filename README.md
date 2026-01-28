@@ -8,7 +8,7 @@ The website is built using **Markdown with HTML styling** and is compatible with
 
 ## Live Website
 
-The site is hosted at:
+The website is hosted at:
 https://aman-coder03.github.io/
 
 (Replace `<username>` with your GitHub username)
