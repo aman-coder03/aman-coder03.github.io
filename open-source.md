@@ -58,7 +58,7 @@ Merged: Jan 2026 | v11.0.0</p>
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
 <p><strong>PR #2646 – Fix ZeroDivisionError in transformer.simple_efficiency</strong><br>
-Merged: Jan 2026 · Milestone: v0.13.2</p>
+Merged: Feb 2026 · Milestone: v0.15.1</p>
 
 <ul>
 <li>Resolved a <code>ZeroDivisionError</code> triggered when <code>load_loss = 0</code> (physically valid transformer edge case)</li>
