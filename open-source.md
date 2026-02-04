@@ -53,6 +53,33 @@ Merged: Jan 2026 | v11.0.0</p>
 
 ---
 
+<h2 style="margin-top:2.5rem;">pvlib (pvlib/pvlib-python)</h2>
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
+<p><strong>PR #2646 – Fix ZeroDivisionError in transformer.simple_efficiency</strong><br>
+Merged: Jan 2026 · Milestone: v0.13.2</p>
+
+<ul>
+<li>Resolved a <code>ZeroDivisionError</code> triggered when <code>load_loss = 0</code> (physically valid transformer edge case)</li>
+<li>Reformulated the quadratic efficiency expression into a numerically stable form</li>
+<li>Preserved existing behavior for <code>load_loss &gt; 0</code> to maintain backward compatibility</li>
+<li>Added targeted unit test validating linear-limit behavior:
+    <code>P_out = P_in − L_no_load × P_nom</code></li>
+<li>Updated release notes and aligned documentation with maintainer guidance</li>
+</ul>
+
+<p>
+<a href="https://github.com/pvlib/pvlib-python/pull/2646"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+
+</div>
+---
+
 <h2 style="margin-top:2.5rem;">AiiDA Core (aiidateam/aiida-core)</h2>
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
