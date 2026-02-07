@@ -27,43 +27,22 @@ Through collaborative open-source development, I prioritize <strong>backward com
 
 <div style="text-align:center;">
 
-<a href="../opensource/pvlib/" 
-   style="display:inline-block; margin:0.8rem;">
-  <div style="display:inline-block; 
-              background:#ffffff; 
-              border:1px solid #e5e7eb; 
-              padding:0.8rem 1.6rem; 
-              border-radius:14px; 
-              box-shadow:0 2px 8px rgba(0,0,0,0.03);
-              font-weight:600;">
-    pvlib (pvlib/pvlib-python)
-  </div>
+<a href="pvlib/"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   pvlib (pvlib/pvlib-python)
 </a>
 
-<a href="../opensource/mss/" 
-   style="display:inline-block; margin:0.8rem;">
-  <div style="display:inline-block; 
-              background:#ffffff; 
-              border:1px solid #e5e7eb; 
-              padding:0.8rem 1.6rem; 
-              border-radius:14px; 
-              box-shadow:0 2px 8px rgba(0,0,0,0.03);
-              font-weight:600;">
-    Open-MSS (Mission Support System)
-  </div>
+<a href="mss/"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin:0.6rem;">
+   Open-MSS (Mission Support System)
 </a>
 
-<a href="../opensource/aiida/" 
-   style="display:inline-block; margin:0.8rem;">
-  <div style="display:inline-block; 
-              background:#ffffff; 
-              border:1px solid #e5e7eb; 
-              padding:0.8rem 1.6rem; 
-              border-radius:14px; 
-              box-shadow:0 2px 8px rgba(0,0,0,0.03);
-              font-weight:600;">
-    AiiDA Core (aiidateam/aiida-core)
-  </div>
+<a href="aiida/"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin:0.6rem;">
+   AiiDA Core (aiidateam/aiida-core)
 </a>
 
 </div>
