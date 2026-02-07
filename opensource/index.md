@@ -25,6 +25,10 @@ Through collaborative open-source development, I align closely with maintainers 
 
 <hr style="margin:3rem 0;">
 
+<div style="text-align:center; margin-bottom:1.5rem;">
+  <h2 style="margin-bottom:0.5rem;">Organizations I Have Contributed To</h2>
+</div>
+
 <div style="text-align:center;">
 
 <a href="pvlib/"
