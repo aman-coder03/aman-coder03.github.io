@@ -29,7 +29,7 @@ Through collaborative open-source development, I prioritize <strong>backward com
 
 <div style="background:#ffffff; border:1px solid #e5e7eb; padding:2rem; border-radius:14px; margin-bottom:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
   <h2 style="margin-top:0;">
-    <a href="/opensource/pvlib/" style="text-decoration:none; color:inherit;">
+    <a href="../opensource/pvlib/" style="text-decoration:none; color:inherit;">
       pvlib (pvlib/pvlib-python)
     </a>
   </h2>
@@ -41,7 +41,7 @@ Through collaborative open-source development, I prioritize <strong>backward com
 
 <div style="background:#ffffff; border:1px solid #e5e7eb; padding:2rem; border-radius:14px; margin-bottom:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
   <h2 style="margin-top:0;">
-    <a href="/opensource/open-mss/" style="text-decoration:none; color:inherit;">
+    <a href="../opensource/open-mss/" style="text-decoration:none; color:inherit;">
       Open-MSS (Mission Support System)
     </a>
   </h2>
@@ -52,7 +52,7 @@ Through collaborative open-source development, I prioritize <strong>backward com
 
 <div style="background:#ffffff; border:1px solid #e5e7eb; padding:2rem; border-radius:14px; margin-bottom:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
   <h2 style="margin-top:0;">
-    <a href="/opensource/aiida/" style="text-decoration:none; color:inherit;">
+    <a href="../opensource/aiida/" style="text-decoration:none; color:inherit;">
       AiiDA Core (aiidateam/aiida-core)
     </a>
   </h2>
