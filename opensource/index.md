@@ -29,24 +29,26 @@ Through collaborative open-source development, I align closely with maintainers 
   <h2 style="margin-bottom:0.5rem;">Organizations I Have Contributed To</h2>
 </div>
 
-<div style="text-align:left;">
+<div style="text-align:left; max-width:400px;">
 
 <a href="pvlib/"
-   style="display:inline-block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600;">
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    pvlib (pvlib/pvlib-python)
 </a>
 
 <a href="mss/"
-   style="display:inline-block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600; margin:0.6rem;">
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    Open-MSS (Mission Support System)
 </a>
 
 <a href="aiida/"
-   style="display:inline-block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600; margin:0.6rem;">
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
    AiiDA Core (aiidateam/aiida-core)
 </a>
+
+</div>
 
 </div>
