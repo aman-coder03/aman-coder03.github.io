@@ -29,7 +29,7 @@ Through collaborative open-source development, I align closely with maintainers 
   <h2 style="margin-bottom:0.5rem;">Organizations I Have Contributed To</h2>
 </div>
 
-<div style="text-align:center;">
+<div style="text-align:left;">
 
 <a href="pvlib/"
    style="display:inline-block; padding:8px 14px; border-radius:8px;
