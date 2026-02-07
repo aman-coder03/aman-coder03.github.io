@@ -10,15 +10,15 @@ title: Open Source Contributions
 <div style="max-width:850px; margin:0 auto 2rem auto; background:#f9fafb; padding:1.8rem; border-radius:14px; line-height:1.7; text-align: justify;">
 
 <p>
-Active contributor to <strong>production-grade scientific Python ecosystems</strong>, working on workflow management systems, numerical modeling libraries, and automation tooling used in research and engineering environments.
+Active contributor to <strong>production-grade scientific Python libraries</strong>, including workflow management systems and photovoltaic modeling frameworks used in research and engineering environments.
 </p>
 
 <p>
-My contributions focus on improving <strong>code reliability, numerical stability, logging clarity, CLI usability, and CI/CD compatibility</strong>, ensuring that systems remain robust, maintainable, and developer-friendly.
+My contributions focus on strengthening <strong>numerical stability, API correctness, exception semantics, logging behavior, and CI compatibility</strong>, ensuring that edge cases are handled rigorously while preserving backward compatibility.
 </p>
 
 <p>
-Through collaborative open-source development, I prioritize <strong>backward compatibility, clean architecture, and clear documentation</strong>, aligning with maintainers’ standards and production best practices.
+Through collaborative open-source development, I align closely with maintainers on <strong>release hygiene, documentation integrity, and clean incremental changes</strong>, prioritizing correctness, clarity, and long-term maintainability in mature codebases.
 </p>
 
 </div>
