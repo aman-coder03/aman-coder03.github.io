@@ -40,7 +40,7 @@ Through collaborative open-source development, I prioritize <strong>backward com
   </div>
 </a>
 
-<a href="../opensource/open-mss/" 
+<a href="../opensource/mss/" 
    style="display:inline-block; margin:0.8rem;">
   <div style="display:inline-block; 
               background:#ffffff; 
