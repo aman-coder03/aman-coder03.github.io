@@ -7,8 +7,6 @@ title: pvlib Contributions
 
 <h1 style="margin-bottom:0.5rem;">pvlib Contributions</h1>
 
-<div style="max-width:850px; margin:0 auto 2rem auto; background:#f9fafb; padding:1.8rem; border-radius:14px; line-height:1.7; text-align: justify;">
-
 </div>
 
 ---
