@@ -27,6 +27,7 @@ Through collaborative open-source development, I align closely with maintainers 
 
 <div style="text-align:left; margin-bottom:1.5rem;">
   <h2 style="margin-bottom:0.5rem;">Organizations I Have Contributed To</h2>
+  <p>Click an organization to view my merged contributions</p>
 </div>
 
 <div style="text-align:left; max-width:400px;">
