@@ -101,3 +101,27 @@ Merged: Feb 2026 · Milestone: v0.15.1</p>
 </div>
 
 ---
+
+<h2 style="margin-top:2.5rem;">pvlib (pvlib-python)</h2>
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
+<p><strong>PR #2622 – Documentation Fix</strong><br>
+Merged: Dec 2025</p>
+
+<ul>
+<li>Corrected contributor attribution typo in release notes</li>
+<li>Restored broken documentation links</li>
+<li>Maintained release documentation standards</li>
+</ul>
+
+<p>
+<a href="https://github.com/pvlib/pvlib-python/pull/2622"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+
+</div>
+
