@@ -33,10 +33,6 @@ Through collaborative open-source development, I prioritize <strong>backward com
       pvlib (pvlib/pvlib-python)
     </a>
   </h2>
-  <p>
-    Contributions focused on numerical stability, API correctness,
-    exception handling semantics, and scientific documentation integrity.
-  </p>
 </div>
 
 <div style="background:#ffffff; border:1px solid #e5e7eb; padding:2rem; border-radius:14px; margin-bottom:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
@@ -45,9 +41,6 @@ Through collaborative open-source development, I prioritize <strong>backward com
       Open-MSS (Mission Support System)
     </a>
   </h2>
-  <p>
-    CLI usability improvements enabling CI/CD workflows and automation compatibility.
-  </p>
 </div>
 
 <div style="background:#ffffff; border:1px solid #e5e7eb; padding:2rem; border-radius:14px; margin-bottom:2rem; box-shadow:0 2px 8px rgba(0,0,0,0.03);">
@@ -56,9 +49,6 @@ Through collaborative open-source development, I prioritize <strong>backward com
       AiiDA Core (aiidateam/aiida-core)
     </a>
   </h2>
-  <p>
-    Logging-level refinements improving observability and reducing false-warning noise in production workflows.
-  </p>
 </div>
 
 </div>
