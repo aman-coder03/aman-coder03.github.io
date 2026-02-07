@@ -3,20 +3,11 @@ layout: page
 title: pvlib Contributions
 ---
 
-<div style="max-width:850px; margin:2rem auto; line-height:1.7;">
+<div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
 
-<h1 style="margin-bottom:1rem;">pvlib (pvlib/pvlib-python)</h1>
+<h1 style="margin-bottom:0.5rem;">pvlib Contributions</h1>
 
-<p>
-Contributions to <strong>pvlib</strong>, a production-grade photovoltaic
-modeling library used in research and engineering applications worldwide.
-</p>
-
-<p>
-My work focused on improving <strong>numerical robustness, API correctness,
-exception semantics, and documentation integrity</strong>, while maintaining
-backward compatibility and aligning with maintainers’ standards.
-</p>
+<div style="max-width:850px; margin:0 auto 2rem auto; background:#f9fafb; padding:1.8rem; border-radius:14px; line-height:1.7; text-align: justify;">
 
 </div>
 
