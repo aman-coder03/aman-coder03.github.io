@@ -19,7 +19,7 @@ title: About Me
 </p>
 
 <div style="margin-top: 1rem;">
-  <a href="/opensource/index.md" 
+  <a href="/opensource/index" 
      style="display:inline-block; padding:8px 16px; border-radius:8px; 
             background:#eef2ff; text-decoration:none; font-weight:600;">
      🌐 View Open Source Contributions
