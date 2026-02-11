@@ -13,6 +13,31 @@ title: pvlib Contributions
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
+<p><strong>PR #2661 – Add simple_efficiency Tests for NumPy Array Inputs</strong><br>
+Merged: Feb 2026 · Milestone: v0.15.1</p>
+
+<ul>
+<li>Added test verifying consistency between scalar and vectorized <code>input_power</code> evaluation</li>
+<li>Refactored numeric cases into a single <code>@pytest.mark.parametrize</code>-based test structure</li>
+<li>Aligned tests with API intent by keeping <code>load_loss</code> and <code>no_load_loss</code> scalar-only</li>
+<li>Updated <code>v0.15.1</code> release notes (Testing section) referencing both issue and PR</li>
+<li>Improved maintainability and clarity of transformer numeric tests</li>
+</ul>
+
+<p>
+<a href="https://github.com/pvlib/pvlib-python/pull/2661"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
 <p><strong>PR #2680 – Fix Swapped Reference Numbering in get_bsrn</strong><br>
 Merged: Feb 2026 · Milestone: v0.15.1</p>
 
