@@ -1,4 +1,4 @@
-# Personal Website (GitHub Pages)
+# Personal Website (Portfolio)
 
 This repository contains the source code for a **personal portfolio website** hosted using **GitHub Pages (`github.io`)**.
 
