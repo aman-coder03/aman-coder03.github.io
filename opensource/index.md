@@ -57,5 +57,3 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 </a>
 
 </div>
-
-</div>
