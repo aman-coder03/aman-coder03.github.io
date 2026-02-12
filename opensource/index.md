@@ -44,6 +44,12 @@ Through collaborative open-source development, I align closely with maintainers 
    Open-MSS (Mission Support System)
 </a>
 
+<a href="mne-python/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   MNE-Python (mne-tools/mne-python)
+</a>
+
 <a href="aiida/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600;">
