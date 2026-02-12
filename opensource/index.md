@@ -46,13 +46,13 @@ Through collaborative open-source development, I align closely with maintainers 
 
 <a href="mne-python/"
    style="display:block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600;">
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    MNE-Python (mne-tools/mne-python)
 </a>
 
 <a href="aiida/"
    style="display:block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600;">
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    AiiDA Core (aiidateam/aiida-core)
 </a>
 
