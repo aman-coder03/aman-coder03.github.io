@@ -41,7 +41,7 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 <a href="mss/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   Open-MSS (Mission Support System)
+   Open-MSS (Open-MSS/MSS)
 </a>
 
 <a href="mne-python/"
