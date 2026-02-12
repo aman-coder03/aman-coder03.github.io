@@ -19,7 +19,7 @@ My contributions strengthen <strong>numerical stability, API design correctness,
 
 <p>
 Through close collaboration with core maintainers, I prioritize <strong>release hygiene, documentation integrity, test coverage expansion, and incremental maintainable changes</strong>, delivering improvements that integrate cleanly into mature, widely-used scientific codebases.
-</p
+</p>
 
 </div>
 
@@ -57,3 +57,7 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 </a>
 
 </div>
+
+</div>
+
+
