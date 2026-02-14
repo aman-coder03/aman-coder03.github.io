@@ -62,4 +62,4 @@ Feel free to fork, modify, and adapt it for your own website.
 
 ---
 
-⭐ If you find this useful, feel free to star the repository.
+If you find this useful, feel free to star the repository.
