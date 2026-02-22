@@ -13,6 +13,31 @@ title: pvlib Contributions
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
+<p><strong>PR #2691 – Add ModelChain Temperature Variation Example to System Models Gallery</strong><br>
+Merged: Feb 2026 · Milestone: v0.15.1</p>
+
+<ul>
+<li>Added new Sphinx-gallery example <code>plot_modelchain_model_variations.py</code> under <code>system-models</code></li>
+<li>Demonstrated comparison of <code>SAPM</code> vs <code>Faiman</code> temperature models within <code>ModelChain</code></li>
+<li>Used identical system and clear-sky weather inputs to isolate temperature model impact</li>
+<li>Compared modeled <code>cell_temperature</code> and resulting <code>AC</code> power output</li>
+<li>Resolved Sphinx-gallery execution issues while preserving OEDI example visibility</li>
+</ul>
+
+<p>
+<a href="https://github.com/pvlib/pvlib-python/pull/2691"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
 <p><strong>PR #2661 – Add simple_efficiency Tests for NumPy Array Inputs</strong><br>
 Merged: Feb 2026 · Milestone: v0.15.1</p>
 
