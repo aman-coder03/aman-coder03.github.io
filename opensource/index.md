@@ -32,16 +32,22 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 
 <div style="text-align:left; max-width:400px;">
 
+<a href="aiida/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   AiiDA Core (aiidateam/aiida-core)
+</a>
+
+<a href="dipy/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   dipy (dipy/dipy)
+</a>
+
 <a href="pvlib/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    pvlib (pvlib/pvlib-python)
-</a>
-
-<a href="mss/"
-   style="display:block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   Open-MSS (Open-MSS/MSS)
 </a>
 
 <a href="mne-python/"
@@ -50,14 +56,13 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    MNE-Python (mne-tools/mne-python)
 </a>
 
-<a href="aiida/"
+<a href="mss/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   AiiDA Core (aiidateam/aiida-core)
+   Open-MSS (Open-MSS/MSS)
 </a>
 
 </div>
 
 </div>
-
 
