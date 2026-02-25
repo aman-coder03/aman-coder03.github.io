@@ -5,7 +5,7 @@ title: aiida-core Contributions
 
 <div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
 
-<h1 style="margin-bottom:0.5rem;">AiiDA Core Contributions</h1>
+<h1 style="margin-bottom:0.5rem;">aiida-core Contributions</h1>
 
 </div>
 
