@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Open-MSS Contributions
+title: MSS Contributions
 ---
 
 <div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
 
-<h1 style="margin-bottom:0.5rem;">Open-MSS Contributions</h1>
+<h1 style="margin-bottom:0.5rem;">MSS Contributions</h1>
 
 </div>
 
