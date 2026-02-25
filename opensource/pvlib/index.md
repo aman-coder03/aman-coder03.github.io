@@ -1,11 +1,11 @@
 ---
 layout: page
-title: pvlib Contributions
+title: pvlib-python Contributions
 ---
 
 <div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
 
-<h1 style="margin-bottom:0.5rem;">pvlib Contributions</h1>
+<h1 style="margin-bottom:0.5rem;">pvlib-python Contributions</h1>
 
 </div>
 
