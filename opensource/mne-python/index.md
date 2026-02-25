@@ -1,11 +1,11 @@
 ---
 layout: page
-title: MNE-Python Contributions
+title: mne-python Contributions
 ---
 
 <div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
 
-<h1 style="margin-bottom:0.5rem;">MNE-Python Contributions</h1>
+<h1 style="margin-bottom:0.5rem;">mne-python Contributions</h1>
 
 </div>
 
