@@ -35,7 +35,7 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 <a href="aiida/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   AiiDA Core (aiidateam/aiida-core)
+   aiida-core (aiidateam/aiida-core)
 </a>
 
 <a href="dipy/"
@@ -47,19 +47,25 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 <a href="pvlib/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   pvlib (pvlib/pvlib-python)
+   pvlib-python (pvlib/pvlib-python)
 </a>
 
 <a href="mne-python/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   MNE-Python (mne-tools/mne-python)
+   mne-python (mne-tools/mne-python)
 </a>
 
 <a href="mss/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   Open-MSS (Open-MSS/MSS)
+   MSS (Open-MSS/MSS)
+</a>
+
+<a href="mss/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   Holidays (Vacanza/Holidays)
 </a>
 
 </div>
