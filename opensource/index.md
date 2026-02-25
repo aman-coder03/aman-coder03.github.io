@@ -44,6 +44,12 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    dipy (dipy/dipy)
 </a>
 
+<a href="mss/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   Holidays (Vacanza/Holidays)
+</a>
+
 <a href="pvlib/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
@@ -60,12 +66,6 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    MSS (Open-MSS/MSS)
-</a>
-
-<a href="mss/"
-   style="display:block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   Holidays (Vacanza/Holidays)
 </a>
 
 </div>
