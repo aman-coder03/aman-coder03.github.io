@@ -47,7 +47,7 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
 <a href="holidays/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
-   Holidays (vacanza/holidays)
+   holidays (vacanza/holidays)
 </a>
 
 <a href="pvlib/"
