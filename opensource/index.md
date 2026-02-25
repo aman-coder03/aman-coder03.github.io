@@ -44,7 +44,7 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    dipy (dipy/dipy)
 </a>
 
-<a href="mss/"
+<a href="holidays/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    Holidays (Vacanza/Holidays)
