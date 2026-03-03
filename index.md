@@ -190,11 +190,11 @@ School Topper in Computer Science
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
 <ul>
+<li><strong>Global Markets Sales & Trading Analyst</strong> – Bank of America</li>
+<li><strong>Artificial Intelligence Fundamentals</strong> – IBM</li>
+<li><strong>Cloud Computing Foundations</strong> – Google Cloud</li>
 <li><strong>Data Analytics Job Simulation</strong> – Deloitte</li>
 <li><strong>Data Quality & Consistency with ODE</strong> – Open Knowledge Brasil</li>
-<li><strong>Cloud Computing Foundations</strong> – Google Cloud</li>
-<li><strong>Artificial Intelligence Fundamentals</strong> – IBM</li>
-<li><strong>Global Markets Sales & Trading Analyst</strong> – Bank of America</li>
 </ul>
 
 </div>
