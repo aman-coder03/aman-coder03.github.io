@@ -92,6 +92,17 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
+<h3>DIRS – Document Intelligence & Retrieval System</h3>
+<ul>
+<li>Built a secure RAG pipeline converting unstructured PDFs into a semantic knowledge base using FAISS, ChromaDB, Milvus & Qdrant</li>
+<li>Implemented hybrid retrieval (vector search + BM25 score fusion) with local LLM inference (LLaMA, Qwen, Gemma)</li>
+<li>Designed role-based access control for secure enterprise document querying</li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
 <h3>CLAMANS – Leave Management System</h3>
 <ul>
 <li>Designed a role-based institutional leave platform for IIT Delhi</li>
@@ -103,10 +114,11 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>AutoCatalog</h3>
+<h3>Wafer Shield AI – Edge AI Semiconductor Defect Classification</h3>
 <ul>
-<li>Built a Selenium-based automation pipeline for catalog validation</li>
-<li>Reduced manual verification by <strong>70%</strong> and improved metadata accuracy by <strong>60%</strong></li>
+<li>Deployed an edge-optimized defect classification system using EfficientNetLite0 achieving <strong>90.34% accuracy</strong></li>
+<li>Built a 6.76 MB FP16 ONNX model achieving <strong>8.55 ms CPU latency</strong> and <strong>116.9 images/sec throughput</strong></li>
+<li>Engineered a high-efficiency inference pipeline for low-resource industrial environments</li>
 </ul>
 
 </div>
@@ -123,10 +135,10 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>LibSenti</h3>
+<h3>AutoCatalog</h3>
 <ul>
-<li>Built a transformer-based institutional review intelligence system</li>
-<li>Enabled real-time analytics across <strong>50+ institutions</strong></li>
+<li>Built a Selenium-based automation pipeline for catalog validation</li>
+<li>Reduced manual verification by <strong>70%</strong> and improved metadata accuracy by <strong>60%</strong></li>
 </ul>
 
 </div>
