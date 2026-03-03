@@ -103,3 +103,17 @@ title: About Me
 </ul>
 
 </div>
+
+<h2 style="margin-top:2.5rem;">📜 Certifications</h2>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+
+<ul>
+<li><strong>{{ CERTIFICATION_NAME_1 }}</strong> – {{ ISSUING_ORGANIZATION_1 }}</li>
+<li><strong>{{ CERTIFICATION_NAME_2 }}</strong> – {{ ISSUING_ORGANIZATION_2 }}</li>
+<li><strong>{{ CERTIFICATION_NAME_3 }}</strong> – {{ ISSUING_ORGANIZATION_3 }}</li>
+<li><strong>{{ CERTIFICATION_NAME_4 }}</strong> – {{ ISSUING_ORGANIZATION_4 }}</li>
+<li><strong>{{ CERTIFICATION_NAME_5 }}</strong> – {{ ISSUING_ORGANIZATION_5 }}</li>
+</ul>
+
+</div>
