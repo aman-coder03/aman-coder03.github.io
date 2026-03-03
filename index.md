@@ -54,10 +54,11 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <p><strong>AI/ML Intern | June 2025 – July 2025</strong></p>
 
 <ul>
-<li>Built <strong>LibSenti</strong>, a large-scale sentiment intelligence platform analyzing <strong>10,000+ IIT and NIT reviews</strong></li>
-<li>Fine-tuned a <strong>RoBERTa-based transformer model</strong> achieving <strong>92% accuracy</strong></li>
-<li>Deployed a Streamlit analytics dashboard reducing turnaround time by <strong>50%</strong></li>
-<li>Automated workflows for <strong>15,000+ CMS records</strong>, reducing manual effort by <strong>60%</strong></li>
+<li>Architected <strong>LibSenti</strong>, a large-scale sentiment intelligence platform analyzing <strong>10,000+ IIT & NIT reviews</strong> using transformer-based NLP</li>
+<li>Fine-tuned a <strong>RoBERTa model (PyTorch + Hugging Face)</strong> achieving <strong>92% accuracy</strong> with improved negative sentiment detection</li>
+<li>Designed and deployed a <strong>real-time Streamlit dashboard (Render)</strong>, reducing analysis turnaround time by <strong>50%</strong></li>
+<li>Automated validation and publishing workflows for <strong>15,000+ Drupal CMS records</strong>, reducing manual effort by <strong>60%</strong> and improving operational efficiency <strong>3×</strong></li>
+<li>Built scalable preprocessing, class balancing, and evaluation pipelines to enhance model robustness and reliability</li>
 </ul>
 
 </div>
