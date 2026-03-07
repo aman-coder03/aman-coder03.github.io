@@ -1,11 +1,11 @@
 ---
 layout: page
-title: dipy Contributions
+title: dipy/dipy Contributions
 ---
 
 <div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
 
-<h1 style="margin-bottom:0.5rem;">dipy Contributions</h1>
+<h1 style="margin-bottom:0.5rem;">dipy/dipy Contributions</h1>
 
 </div>
 
