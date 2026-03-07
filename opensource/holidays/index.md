@@ -33,6 +33,8 @@ View Pull Request
 
 </div>
 
+---
+
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
 <p><strong>PR #3177 – Add French Localization (l10n) Support for Burkina Faso</strong><br>
