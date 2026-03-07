@@ -38,6 +38,12 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    aiida-core (aiidateam/aiida-core)
 </a>
 
+<a href="causalml/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   causalml (uber/causalml)
+</a>
+
 <a href="dipy/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
