@@ -1,15 +1,37 @@
 ---
 layout: page
-title: holidays Contributions
+title: vacanza/holidays Contributions
 ---
 
 <div style="text-align:center; margin-top:2rem; margin-bottom:2rem;">
-
-<h1 style="margin-bottom:0.5rem;">holidays Contributions</h1>
-
+<h1 style="margin-bottom:0.5rem;">vacanza/holidays Contributions</h1>
 </div>
 
----
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
+<p><strong>PR #3178 – Add French Localization (l10n) Support for Gabon</strong><br>
+Merged: Mar 2026</p>
+
+<ul>
+<li>Set <code>default_language = "fr"</code> with support for <code>en_US</code> and <code>fr</code></li>
+<li>Wrapped all holiday name literals using <code>gettext</code> (<code>tr()</code>) for localization</li>
+<li>Added two complete <code>.po</code> localization catalogs (<code>fr</code> and <code>en_US</code>)</li>
+<li>Used official French holiday names sourced from Gabonese government archives</li>
+<li>Implemented multilingual tests (<code>test_l10n_default</code> and <code>test_l10n_en_us</code>)</li>
+<li>Updated README language support table for Gabon</li>
+<li>Passed 32 CI checks across Python 3.10–3.14 on macOS, Ubuntu, and Windows</li>
+<li>Improved localization consistency for Francophone countries in the project</li>
+</ul>
+
+<p>
+<a href="https://github.com/vacanza/holidays/pull/3178"
+style="display:inline-block; padding:8px 14px; border-radius:8px;
+background:#eef2ff; text-decoration:none; font-weight:600;">
+View Pull Request
+</a>
+</p>
+
+</div>
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
@@ -29,9 +51,9 @@ Merged: Feb 2026</p>
 
 <p>
 <a href="https://github.com/vacanza/holidays/pull/3177"
-   style="display:inline-block; padding:8px 14px; border-radius:8px;
-   background:#eef2ff; text-decoration:none; font-weight:600;">
-   View Pull Request
+style="display:inline-block; padding:8px 14px; border-radius:8px;
+background:#eef2ff; text-decoration:none; font-weight:600;">
+View Pull Request
 </a>
 </p>
 
