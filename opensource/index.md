@@ -38,6 +38,12 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    aiida-core (aiidateam/aiida-core)
 </a>
 
+<a href="braindecode/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   braindecode (braindecode/braindecode)
+</a>
+
 <a href="causalml/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
@@ -60,6 +66,12 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
    pvlib-python (pvlib/pvlib-python)
+</a>
+
+<a href="matplotlib/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   matplotlib (matplotlib/matplotlib)
 </a>
 
 <a href="mne-python/"
