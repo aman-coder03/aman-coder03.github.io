@@ -50,6 +50,20 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
+<h3>RECONZO</h3>
+<p><strong>Competitive Intelligence Intern | Dec 2025 – Feb 2026</strong></p>
+
+<ul>
+<li>Constructed a multi-platform competitive intelligence system across <strong>e-commerce and quick commerce marketplaces</strong>, automating geo-specific product tracking across multiple pincodes</li>
+<li>Attained <strong>~7x higher data ingestion throughput</strong> by building an asynchronous Playwright workflow using asyncio and controlled parallel browser execution</li>
+<li>Designed a fault-tolerant scraping pipeline with <strong>proxy-based session isolation</strong>, API interception, and intelligent retry logic</li>
+<li>Built ETL workflows to generate <strong>pricing spreads, discount volatility, and stock-level signals</strong> for margin analysis</li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
 <h3>Indian Institute of Technology Delhi</h3>
 <p><strong>AI/ML Intern | June 2025 – July 2025</strong></p>
 
