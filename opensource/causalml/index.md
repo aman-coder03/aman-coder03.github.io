@@ -10,6 +10,28 @@ title: uber/causalml Contributions
 ---
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
+<p><strong>PR #887 – Add Rank-weighted Average Treatment Effect (RATE) Metric</strong><br>
+Merged: Mar 2026</p>
+<ul>
+<li>Added <code>causalml/metrics/rate.py</code> with three public functions — <code>get_toc()</code>, <code>rate_score()</code>, and <code>plot_toc()</code> — following the exact same API conventions as <code>get_qini</code> / <code>qini_score</code> / <code>plot_qini</code></li>
+<li><code>get_toc()</code> computes the Targeting Operator Characteristic curve via O(n) cumulative sums; <code>rate_score()</code> computes the RATE scalar with AUTOC (1/q) or Qini (q) weighting; <code>plot_toc()</code> visualizes the TOC curve</li>
+<li>Supported both oracle mode (simulated <code>tau</code>) and observed RCT mode (<code>y</code> + <code>w</code>); fixed normalize division-by-zero by using <code>max(|TOC|)</code> instead of <code>TOC(1)</code>; added <code>logger.warning</code> for observed-outcome fallback</li>
+<li>Added 20 unit tests in <code>tests/test_rate.py</code>; addressed all blocking and non-blocking review comments across two review rounds; passed black and pre-commit clean</li>
+<li>Implementation verified correct against the Yadlowsky et al. (2021) paper and the grf R package reference by the maintainer</li>
+</ul>
+<p>
+<a href="https://github.com/uber/causalml/pull/887"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
   
 <p><strong>PR #860 – Add Native NaN Support for UpliftTree and UpliftRandomForest</strong><br>
 Merged: Mar 2026</p>
