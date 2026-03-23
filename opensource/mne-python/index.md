@@ -13,6 +13,32 @@ title: mne-python Contributions
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
+<p><strong>PR #13729 – Add Python–R Interoperability Example using rpy2</strong><br>
+Merged: Mar 2026</p>
+
+<ul>
+<li>Added a Sphinx-gallery example demonstrating a mass-univariate t-test using Python and R (via rpy2)</li>
+<li>Showed full interoperability: NumPy → R conversion, executing R functions, retrieving results back into Python</li>
+<li>Integrated rpy2 into documentation dependencies and updated CI to install R</li>
+<li>Resolved cross-platform build issues via CircleCI configuration (R + system libraries)</li>
+<li>Incorporated maintainer feedback: moved to stats module, improved ROI selection and ERP window, expanded rpy2 explanations</li>
+<li>Ensured successful documentation build with all CI checks passing</li>
+</ul>
+
+<p>
+<a href="https://github.com/mne-tools/mne-python/pull/13729"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
 <p><strong>PR #13570 – Add Optional Channel Name Overlay to plot_alignment</strong><br>
 Merged: Feb 2026</p>
 
