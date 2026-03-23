@@ -50,6 +50,12 @@ Through close collaboration with core maintainers, I prioritize <strong>release 
    causalml (uber/causalml)
 </a>
 
+<a href="conda-smithy/"
+   style="display:block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
+   conda-smithy (conda-forge/conda-smithy)
+</a>
+
 <a href="dipy/"
    style="display:block; padding:8px 14px; border-radius:8px;
    background:#eef2ff; text-decoration:none; font-weight:600; margin-bottom:0.8rem;">
