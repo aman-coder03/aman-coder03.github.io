@@ -68,11 +68,11 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <p><strong>AI/ML Intern | June 2025 – July 2025</strong></p>
 
 <ul>
-<li>Architected <strong>LibSenti</strong>, a large-scale sentiment intelligence platform analyzing <strong>10,000+ IIT & NIT reviews</strong> using transformer-based NLP</li>
-<li>Fine-tuned a <strong>RoBERTa model (PyTorch + Hugging Face)</strong> achieving <strong>92% accuracy</strong> with improved negative sentiment detection</li>
-<li>Designed and deployed a <strong>real-time Streamlit dashboard (Render)</strong>, reducing analysis turnaround time by <strong>50%</strong></li>
-<li>Automated validation and publishing workflows for <strong>15,000+ Drupal CMS records</strong>, reducing manual effort by <strong>60%</strong> and improving operational efficiency <strong>3×</strong></li>
-<li>Built scalable preprocessing, class balancing, and evaluation pipelines to enhance model robustness and reliability</li>
+<li>Architected and deployed <strong>LibSenti</strong>, an end-to-end sentiment intelligence platform analyzing <strong>10,000+ IIT & NIT library reviews</strong> using transformer-based NLP</li>
+<li>Fine-tuned a <strong>RoBERTa model (PyTorch + Hugging Face)</strong> achieving <strong>95%+ accuracy</strong>, with significant improvement in neutral sentiment detection using class imbalance handling and label smoothing</li>
+<li>Designed and deployed a <strong>real-time Streamlit web application (Streamlit Cloud + Hugging Face Hub)</strong>, enabling interactive predictions, probability visualization, and institutional-level insights</li>
+<li>Automated validation and publishing workflows for <strong>15,000+ Drupal CMS records</strong>, reducing manual effort by <strong>60%</strong> and improving operational efficiency by <strong>3×</strong></li>
+<li>Built scalable preprocessing, class balancing, and evaluation pipelines to enhance model robustness, generalization, and real-world reliability</li>
 </ul>
 
 </div>
