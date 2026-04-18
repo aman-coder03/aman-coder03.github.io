@@ -10,15 +10,15 @@ title: Open Source Contributions
 <div style="max-width:850px; margin:0 auto 2rem auto; background:#f9fafb; padding:1.8rem; border-radius:14px; line-height:1.7; text-align: justify;">
 
 <p>
-Active contributor to <strong>production-grade scientific Python ecosystems</strong>, including neurophysiology analysis, photovoltaic modeling, scientific workflow systems, and atmospheric mission support platforms used in research and engineering environments.
+Active contributor to <strong>production-grade scientific Python ecosystems</strong>, including neurophysiology analysis, photovoltaic modeling, scientific workflow systems, atmospheric mission support platforms, and quantum information theory libraries used in research and engineering environments.
 </p>
 
 <p>
-My contributions strengthen <strong>numerical stability, API design correctness, visualization capabilities, exception semantics, logging behavior, and CI reliability</strong>, ensuring robust edge-case handling while preserving strict backward compatibility.
+My contributions strengthen <strong>numerical stability, API design correctness, visualization capabilities, exception semantics, logging behavior, distribution parameterization, and CI reliability</strong>, ensuring robust edge-case handling and type-safe interfaces while preserving strict backward compatibility.
 </p>
 
 <p>
-Through close collaboration with core maintainers, I prioritize <strong>release hygiene, documentation integrity, test coverage expansion, and incremental maintainable changes</strong>, delivering improvements that integrate cleanly into mature, widely-used scientific codebases.
+Through close collaboration with core maintainers, I prioritize <strong>release hygiene, documentation integrity, test coverage expansion, input validation correctness, and incremental maintainable changes</strong>, delivering improvements that integrate cleanly into mature, widely-used scientific and mathematical codebases.
 </p>
 
 </div>
