@@ -11,6 +11,28 @@ title: uber/causalml Contributions
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
+<p><strong>PR #890 – Add Bootstrap Confidence Intervals and P-values to rate_score()</strong><br>
+Merged: Apr 2026</p>
+<ul>
+<li>Extended <code>rate_score()</code> in <code>causalml/metrics/rate.py</code> with <code>return_ci=False</code>, <code>n_bootstrap=200</code>, <code>alpha=0.05</code>, and <code>random_state=None</code> parameters following sklearn conventions</li>
+<li>When <code>return_ci=True</code>, uses half-sample bootstrap (m = n // 2, without replacement) per the Yadlowsky et al. (2021) functional CLT, returning SE, CI bounds, and a two-sided p-value testing H0: RATE = 0</li>
+<li>Refactored integration logic into a module-level <code>_compute_rate_from_toc()</code> helper to eliminate code duplication and avoid joblib pickle issues with nested functions</li>
+<li>Added 4 new tests to <code>tests/test_rate.py</code> using existing <code>synthetic_df</code> and <code>rct_df</code> fixtures and <code>RANDOM_SEED</code> from <code>tests/const.py</code>; addressed all blocking and non-blocking review comments across two review rounds; passed black and CI checks</li>
+<li>Bootstrap inference verified correct against the Yadlowsky et al. (2021) paper by the maintainer across two review rounds</li>
+</ul>
+<p>
+<a href="https://github.com/uber/causalml/pull/890"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
 <p><strong>PR #887 – Add Rank-weighted Average Treatment Effect (RATE) Metric</strong><br>
 Merged: Mar 2026</p>
 <ul>
