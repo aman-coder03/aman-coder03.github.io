@@ -9,11 +9,39 @@ title: dipy/dipy Contributions
 
 </div>
 
+
 ---
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
+<p><strong>PR #3878 – Fix and Enhance ASV Continuous Benchmarking CI Workflow</strong><br>
+Merged: May 2026</p>
+
+<ul>
+<li>Implemented a fully functional ASV continuous benchmarking GitHub Actions workflow for DIPY</li>
+<li>Replaced isolated benchmark execution with <code>asv continuous master HEAD</code> for automated performance regression detection</li>
+<li>Integrated automated PR benchmark comparison reporting with sticky pull request comments</li>
+<li>Pinned GitHub Actions to stable versions consistent with the rest of DIPY CI infrastructure</li>
+<li>Added artifact upload support and improved workflow maintainability following patterns used by NumPy, SciPy, and scikit-image</li>
+<li>Addressed maintainer review feedback, rebased conflicts, and validated workflow compatibility across CI environments</li>
+</ul>
+
+<p>
+<a href="https://github.com/dipy/dipy/pull/3878"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
 <p><strong>PR #3783 – Fix Figure Canvas Not Cleared in Simulation Tutorials</strong><br>
 Merged: Mar 2026</p>
+
 <ul>
 <li>Identified simulation tutorials missing explicit <code>plt.figure()</code> calls before plotting in sphinx-gallery builds</li>
 <li>Replaced bare <code>plt.plot()</code> calls with <code>fig, ax = plt.subplots()</code> (object-oriented API) in <code>simulate_dki.py</code> and <code>simulate_multi_tensor.py</code></li>
@@ -21,6 +49,7 @@ Merged: Mar 2026</p>
 <li>Confirmed clean, separate figure generation with no canvas overlap in generated documentation</li>
 <li>Documentation-only fix with no functional behavior changes</li>
 </ul>
+
 <p>
 <a href="https://github.com/dipy/dipy/pull/3783"
    style="display:inline-block; padding:8px 14px; border-radius:8px;
