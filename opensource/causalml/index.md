@@ -11,6 +11,35 @@ title: uber/causalml Contributions
 
 <div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
 
+<p><strong>PR #886 – Add Post-Fit Confidence Intervals to BaseTLearner via store_bootstraps and return_ci</strong><br>
+Merged: May 2026</p>
+
+<ul>
+<li>Added <code>store_bootstraps=False</code> to <code>BaseTLearner.fit()</code>, enabling storage of a bootstrap ensemble after training for train-once, score-many workflows</li>
+<li>Added <code>return_ci=False</code> to <code>BaseTLearner.predict()</code>, allowing confidence intervals to be generated on new unseen datasets without retraining</li>
+<li>Introduced a reusable bootstrap ensemble framework through <code>BaseLearner.fit_bootstrap_ensemble()</code>, making the implementation extensible to additional causal inference meta-learners</li>
+<li>Refactored bootstrap training into module-level helper functions to eliminate joblib parallelization and pickling issues caused by nested functions</li>
+<li>Replaced <code>deepcopy()</code> with <code>sklearn.base.clone()</code> following EconML-style design patterns for efficient model replication and reproducibility</li>
+<li>Added support for reproducible bootstrap inference through <code>random_state</code> handling and parallel execution via joblib</li>
+<li>Extended confidence interval support to <code>BaseTClassifier.predict()</code>, enabling uncertainty estimation for classification-based treatment effect models</li>
+<li>Added comprehensive test coverage for reproducibility, parallel execution (<code>n_jobs &gt; 1</code>), random seed behavior, BaseTLearner confidence intervals, and BaseTClassifier confidence intervals</li>
+<li>Addressed all blocking and non-blocking maintainer review comments across multiple review rounds, including architecture refactoring, API consistency, parallelization safety, and statistical correctness</li>
+</ul>
+
+<p>
+<a href="https://github.com/uber/causalml/pull/886"
+   style="display:inline-block; padding:8px 14px; border-radius:8px;
+   background:#eef2ff; text-decoration:none; font-weight:600;">
+   View Pull Request
+</a>
+</p>
+
+</div>
+
+---
+
+<div style="background:#f9fafb; padding:1.5rem; border-radius:12px; margin-bottom:2rem;">
+
 <p><strong>PR #890 – Add Bootstrap Confidence Intervals and P-values to rate_score()</strong><br>
 Merged: Apr 2026</p>
 <ul>
