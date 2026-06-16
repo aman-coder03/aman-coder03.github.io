@@ -1113,28 +1113,6 @@
           </ul>
         </div>
 
-        <div class="proj-card fade-in">
-          <div class="proj-icon">🗂️</div>
-          <div class="proj-name">AutoCatalog</div>
-          <ul class="proj-bullets">
-            <li>Built a Selenium-powered catalog validation and metadata verification automation platform</li>
-            <li>Automated product data validation workflows, reducing manual verification effort by <strong>70%</strong></li>
-            <li>Improved catalog accuracy by <strong>60%</strong> through automated consistency checks and anomaly detection</li>
-            <li>Designed scalable validation pipelines supporting large-scale catalog management operations</li>
-          </ul>
-        </div>
-
-        <div class="proj-card fade-in">
-          <div class="proj-icon">🧭</div>
-          <div class="proj-name">TaskSage – AI Consultant</div>
-          <ul class="proj-bullets">
-            <li>Developed an LLM-powered task prioritization and productivity assistant for intelligent workflow management</li>
-            <li>Implemented AI-driven decision support mechanisms to automate task ranking and scheduling</li>
-            <li>Reduced manual triage effort by <strong>80%</strong> through automated prioritization strategies</li>
-            <li>Designed conversational interfaces enabling personalized productivity recommendations</li>
-          </ul>
-        </div>
-
       </div>
     </section>
 
@@ -1144,12 +1122,12 @@
       <h2 class="section-title fade-in">🌐 Contributions</h2>
       <div class="os-hero fade-in">
         <div class="os-stat">
-          <div class="os-number">20+</div>
+          <div class="os-number">24+</div>
           <div class="os-label">Merged PRs</div>
         </div>
         <div class="os-divider"></div>
         <div class="os-desc">
-          Active open-source contributor with <strong>20+ merged pull requests across globally used projects</strong>, contributing to machine learning, scientific computing, visualization, and developer tooling ecosystems.
+          Active open-source contributor with <strong>24+ merged pull requests across globally used projects</strong>, contributing to machine learning, scientific computing, visualization, and developer tooling ecosystems.
           <div class="os-ecosystems">
             <span class="eco-tag">Machine Learning</span>
             <span class="eco-tag">Scientific Computing</span>
