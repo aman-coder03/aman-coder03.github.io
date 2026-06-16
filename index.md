@@ -51,10 +51,15 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>System Star</h3>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <h3 style="margin:0;">System Star</h3>
+    <span style="color:#6b7280; font-size:0.95rem;">
+        Wilmington, Delaware, United States
+    </span>
+</div>
+
 <p>
 <strong>Software Development Intern</strong><br>
-Wilmington, Delaware, United States<br>
 Apr 2026 – Jun 2026
 </p>
 
