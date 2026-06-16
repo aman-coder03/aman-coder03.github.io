@@ -847,7 +847,6 @@
     <div class="sidebar-top">
       <div class="avatar-wrap">AS</div>
       <div class="sidebar-name">Aman Srivastava</div>
-      <div class="sidebar-role">Software Dev | AI/ML | Data Science</div>
       <div class="sidebar-loc">📍 New Delhi, India</div>
 
       <div class="nav-label">Navigation</div>
@@ -887,7 +886,6 @@
         </div>
         <h1 class="hero-name">Aman Srivastava<span class="cursor"></span></h1>
         <p class="hero-sub">Software Dev&nbsp;&nbsp;·&nbsp;&nbsp;AI/ML&nbsp;&nbsp;·&nbsp;&nbsp;Data Science</p>
-        <p class="hero-loc">📍 New Delhi, India</p>
         <div class="hero-ctas">
           <a href="/opensource" class="btn-primary">🌐 Open Source Contributions</a>
           <a href="https://github.com/aman-coder03" class="btn-ghost" target="_blank">GitHub ↗</a>
