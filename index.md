@@ -33,15 +33,16 @@ title: About Me
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem; text-align: justify;">
 
 <p>
-I am a pre-final year Computer Science student specializing in <strong>Data Science, Artificial Intelligence, and Machine Learning</strong>, with hands-on experience building <strong>production-grade NLP systems, automation pipelines, and full-stack AI applications</strong>.
+I am a final-year Computer Science undergraduate at <strong>Maharaja Surajmal Institute of Technology</strong>. My experience spans <strong>Artificial Intelligence, Machine Learning, Data Science, and Software Development</strong>, with a strong focus on building scalable, production-grade systems.
 </p>
-
 <p>
-My work spans the full ML lifecycle from data processing and transformer fine-tuning to deployment, workflow automation, and scalable system design. I am particularly interested in <strong>transformer architectures, AI-driven automation systems, and robust data infrastructure</strong>.
+I have worked across the full product and engineering lifecycle, from designing transformer-based NLP models and Retrieval-Augmented Generation (RAG) systems to developing backend services, automation platforms, competitive intelligence pipelines, and enterprise software solutions. My work includes building <strong>LLM-powered applications, sentiment intelligence platforms, document retrieval systems, workflow automation tools, and data-driven decision-support systems</strong>.
 </p>
-
 <p>
-Beyond engineering, I bring strong <strong>leadership, discipline, and decision-making ability under pressure</strong>, demonstrated through founding and leading student organizations and being <strong>recommended via the SSB for Officer Entry</strong> into the Indian Armed Forces.
+Beyond internships and projects, I am an active <strong>open-source contributor with 20+ merged pull requests across globally used projects</strong>, contributing to machine learning, scientific computing, visualization, and developer tooling ecosystems. I am particularly interested in <strong>AI Agents, Generative AI, Distributed Systems, Backend Architecture, and Applied Machine Learning</strong>.
+</p>
+<p>
+Beyond technology, I have demonstrated strong leadership potential, strategic thinking, and performance under pressure through being <strong>recommended by the Services Selection Board (SSB) for Officer Entry into the Indian Armed Forces</strong>, a highly selective evaluation process focused on officer-like qualities, decision-making ability, teamwork, and mental robustness.
 </p>
 
 </div>
@@ -50,14 +51,30 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
+<h3>System Star</h3>
+<p><strong>Software Development Intern | Apr 2026 – Jun 2026</strong></p>
+
+<ul>
+<li>Developed and enhanced <strong>backend services, internal tools, and automation systems</strong> supporting large-scale business operations and data-driven workflows</li>
+<li>Resolved complex production issues involving <strong>multi-threaded applications, database performance bottlenecks, concurrency failures, and system synchronization</strong>, significantly improving platform stability</li>
+<li>Designed and integrated <strong>REST APIs, workflow automation modules, and data processing pipelines</strong> to improve operational efficiency and reduce manual intervention</li>
+<li>Built centralized monitoring and reporting dashboards, aggregating data from multiple services to provide <strong>real-time system observability and operational insights</strong></li>
+<li>Performed production debugging, testing, and user acceptance validation while collaborating with engineering teams to deliver reliable and scalable software solutions</li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
 <h3>RECONZO</h3>
 <p><strong>Competitive Intelligence Intern | Dec 2025 – Feb 2026</strong></p>
 
 <ul>
-<li>Constructed a multi-platform competitive intelligence system across <strong>e-commerce and quick commerce marketplaces</strong>, automating geo-specific product tracking across multiple pincodes</li>
-<li>Attained <strong>~7x higher data ingestion throughput</strong> by building an asynchronous Playwright workflow using asyncio and controlled parallel browser execution</li>
-<li>Designed a fault-tolerant scraping pipeline with <strong>proxy-based session isolation</strong>, API interception, and intelligent retry logic</li>
-<li>Built ETL workflows to generate <strong>pricing spreads, discount volatility, and stock-level signals</strong> for margin analysis</li>
+<li>Built a data-driven competitive intelligence framework to analyze <strong>market pricing, promotional strategies, inventory trends, and competitor positioning</strong> across leading retail and quick-commerce platforms</li>
+<li>Processed large-scale market datasets and improved analytical throughput by <strong>~7×</strong>, enabling timely identification of emerging business opportunities and competitive risks</li>
+<li>Performed pricing and inventory analytics to uncover <strong>discount volatility, stock movement patterns, and regional demand variations</strong> across multiple markets</li>
+<li>Developed ETL workflows and structured reporting systems that generated <strong>pricing intelligence, margin insights, and strategic business recommendations</strong></li>
+<li>Delivered actionable insights through automated dashboards and analytics pipelines, supporting <strong>data-driven decision-making and competitive strategy formulation</strong></li>
 </ul>
 
 </div>
@@ -65,14 +82,15 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>Indian Institute of Technology Delhi</h3>
-<p><strong>AI/ML Intern | June 2025 – July 2025</strong></p>
+<p><strong>AI/ML Intern | Jun 2025 – Jul 2025</strong></p>
 
 <ul>
-<li>Architected and deployed <strong>LibSenti</strong>, an end-to-end sentiment intelligence platform analyzing <strong>10,000+ IIT & NIT library reviews</strong> using transformer-based NLP</li>
-<li>Fine-tuned a <strong>RoBERTa model (PyTorch + Hugging Face)</strong> achieving <strong>95%+ accuracy</strong>, with significant improvement in neutral sentiment detection using class imbalance handling and label smoothing</li>
-<li>Designed and deployed a <strong>real-time Streamlit web application (Streamlit Cloud + Hugging Face Hub)</strong>, enabling interactive predictions, probability visualization, and institutional-level insights</li>
+<li>Architected and deployed <strong>LibSenti</strong>, a transformer-based sentiment intelligence platform analyzing <strong>10,000+ institutional reviews</strong> for large-scale opinion mining and sentiment analytics</li>
+<li>Fine-tuned a <strong>RoBERTa model using PyTorch and Hugging Face Transformers</strong>, achieving <strong>95%+ classification accuracy</strong> through advanced preprocessing, class balancing, and label smoothing techniques</li>
+<li>Designed scalable NLP pipelines for data cleaning, tokenization, augmentation, model training, evaluation, and inference, improving model robustness and generalization</li>
+<li>Built and deployed a <strong>real-time sentiment analysis application</strong> using Streamlit and Hugging Face Hub, enabling interactive inference, confidence visualization, and explainable predictions</li>
+<li>Developed comprehensive evaluation workflows leveraging precision, recall, F1-score, confusion matrices, and error analysis to optimize model performance across sentiment classes</li>
 <li>Automated validation and publishing workflows for <strong>15,000+ Drupal CMS records</strong>, reducing manual effort by <strong>60%</strong> and improving operational efficiency by <strong>3×</strong></li>
-<li>Built scalable preprocessing, class balancing, and evaluation pipelines to enhance model robustness, generalization, and real-world reliability</li>
 </ul>
 
 </div>
@@ -83,7 +101,7 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <p><strong>Software Developer Intern | Feb 2025 – June 2025</strong></p>
 
 <ul>
-<li>Engineered a gamified coding platform used by <strong>1,000+ students</strong></li>
+<li>Engineered a gamified coding platform used by <strong>1,000+ kids</strong></li>
 <li>Improved backend performance by <strong>15%</strong> and user engagement by <strong>30%</strong></li>
 </ul>
 
@@ -91,13 +109,15 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
-<h3>U-Knighted</h3>
+<h3>U-Knighted Chess Society</h3>
 <p><strong>Founder & President | Jan 2025 – Present</strong></p>
 
 <ul>
-<li>Scaled the College Chess Society to <strong>100+ active members</strong></li>
-<li>Organized tournaments and strategy workshops</li>
-<li>Secured sponsorships and institutional partnerships</li>
+<li>Founded and scaled the college chess society to <strong>100+ active members</strong>, building one of the largest student-led strategic gaming communities on campus</li>
+<li>Led a <strong>15-member core team</strong>, overseeing event planning, operations, partnerships, community engagement, and organizational growth</li>
+<li>Organized inter-college tournaments, competitive events, and strategy workshops, driving sustained member participation and skill development</li>
+<li>Secured sponsorship from <strong>Smaaash</strong> and established external partnerships, enabling the successful execution of multiple sponsored events</li>
+<li>Managed budgeting, stakeholder coordination, and event logistics while fostering a collaborative and high-performance community culture</li>
 </ul>
 
 </div>
@@ -107,21 +127,25 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>DIRS – Document Intelligence & Retrieval System</h3>
+
 <ul>
-<li>Built a secure RAG pipeline converting unstructured PDFs into a semantic knowledge base using FAISS, ChromaDB, Milvus & Qdrant</li>
-<li>Implemented hybrid retrieval (vector search + BM25 score fusion) with local LLM inference (LLaMA, Qwen, Gemma)</li>
-<li>Designed role-based access control for secure enterprise document querying</li>
+<li>Built an enterprise-grade RAG platform converting unstructured PDFs into a searchable semantic knowledge base using FAISS, ChromaDB, Milvus, and Qdrant</li>
+<li>Implemented hybrid retrieval combining vector similarity search with BM25 score fusion, improving retrieval accuracy across diverse document collections</li>
+<li>Integrated local LLM inference using LLaMA, Qwen, and Gemma models for secure and privacy-preserving document question answering</li>
+<li>Designed role-based access control and modular ingestion pipelines for secure enterprise document intelligence workflows</li>
 </ul>
 
 </div>
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>CLAMANS – Leave Management System</h3>
+<h3>ShadowVerse – Autonomous AI Agent</h3>
+
 <ul>
-<li>Designed a role-based institutional leave platform for IIT Delhi</li>
-<li>Implemented PostgreSQL leave computation logic with holiday policies</li>
-<li>Built OTP authentication and SMTP automation workflows</li>
+<li>Developed an AI-powered autonomous agent capable of identifying relevant jobs, selecting optimized resumes, generating personalized cover letters, and automating applications</li>
+<li>Built browser automation workflows for job discovery, form completion, recruiter outreach, and application tracking</li>
+<li>Integrated resume intelligence, job matching, and LLM-driven personalization into a unified application ecosystem</li>
+<li>Designed scalable architecture supporting autonomous job search across multiple recruitment platforms</li>
 </ul>
 
 </div>
@@ -129,10 +153,66 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>Wafer Shield AI – Edge AI Semiconductor Defect Classification</h3>
+
 <ul>
-<li>Deployed an edge-optimized defect classification system using EfficientNetLite0 achieving <strong>90.34% accuracy</strong></li>
-<li>Built a 6.76 MB FP16 ONNX model achieving <strong>8.55 ms CPU latency</strong> and <strong>116.9 images/sec throughput</strong></li>
-<li>Engineered a high-efficiency inference pipeline for low-resource industrial environments</li>
+<li>Deployed an edge-optimized semiconductor defect classification system using EfficientNetLite0 achieving <strong>90.34% accuracy</strong></li>
+<li>Built a lightweight 6.76 MB FP16 ONNX model achieving <strong>8.55 ms CPU latency</strong> and <strong>116.9 images/sec throughput</strong></li>
+<li>Engineered optimized preprocessing and inference pipelines for deployment in low-resource industrial environments</li>
+<li>Reduced computational requirements while maintaining production-grade defect detection performance</li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
+<h3>LibSenti – Transformer-Based Sentiment Intelligence Platform</h3>
+
+<ul>
+<li>Built an end-to-end sentiment intelligence platform analyzing <strong>10,000+ IIT and NIT library reviews</strong> using transformer-based NLP</li>
+<li>Fine-tuned a RoBERTa model achieving <strong>95%+ classification accuracy</strong> through advanced preprocessing, class balancing, and label smoothing</li>
+<li>Developed a real-time Streamlit application enabling interactive predictions, confidence visualization, and institutional analytics</li>
+<li>Designed scalable NLP pipelines supporting large-scale sentiment monitoring and reporting</li>
+</ul>
+
+</div>
+
+
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
+<h3>CLAMANS – Enterprise Leave Management System</h3>
+
+<ul>
+<li>Designed and developed a role-based institutional leave management platform for IIT Delhi</li>
+<li>Implemented PostgreSQL-based leave computation logic supporting holiday policies, approval workflows, and leave balance tracking</li>
+<li>Built OTP authentication, email notifications, and automated workflow management using SMTP services</li>
+<li>Created secure administrative and employee portals with end-to-end workflow automation</li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
+<h3>FinRisk – Financial Compliance Intelligence System</h3>
+
+<ul>
+<li>Built a multi-source financial intelligence platform monitoring AML, sanctions, fraud, regulatory, and compliance-related developments</li>
+<li>Developed a weighted risk scoring engine across 25+ compliance indicators for automated threat prioritization</li>
+<li>Designed KPI dashboards and automated reporting systems supporting risk assessment and investigation workflows</li>
+<li>Implemented data aggregation pipelines for large-scale compliance intelligence generation</li>
+</ul>
+
+</div>
+
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+
+<h3>SolarAI Assistant</h3>
+
+<ul>
+<li>Built an AI-powered rooftop solar advisory platform integrating subsidy calculations, ROI estimation, and energy generation forecasting</li>
+<li>Implemented PM Surya Ghar policy logic and financial simulations for personalized investment recommendations</li>
+<li>Generated location-aware solar installation insights based on energy consumption patterns and infrastructure constraints</li>
+<li>Automated cost-benefit analysis to support informed renewable energy adoption decisions</li>
 </ul>
 
 </div>
@@ -140,9 +220,12 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>SmartMailer – AI Email Automation</h3>
+
 <ul>
-<li>Developed an NLP-powered email assistant</li>
-<li>Reduced drafting time by <strong>75%</strong> and automated <strong>65%</strong> of workflows</li>
+<li>Developed an NLP-powered email generation and automation platform for professional communication workflows</li>
+<li>Automated email drafting, personalization, and delivery processes, reducing drafting time by <strong>75%</strong></li>
+<li>Integrated intelligent content generation and workflow automation, eliminating <strong>65%</strong> of manual effort</li>
+<li>Built scalable modules for bulk communication and personalized outreach campaigns</li>
 </ul>
 
 </div>
@@ -150,19 +233,25 @@ Beyond engineering, I bring strong <strong>leadership, discipline, and decision-
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>AutoCatalog</h3>
+
 <ul>
-<li>Built a Selenium-based automation pipeline for catalog validation</li>
-<li>Reduced manual verification by <strong>70%</strong> and improved metadata accuracy by <strong>60%</strong></li>
+<li>Built a Selenium-powered catalog validation and metadata verification automation platform</li>
+<li>Automated product data validation workflows, reducing manual verification effort by <strong>70%</strong></li>
+<li>Improved catalog accuracy by <strong>60%</strong> through automated consistency checks and anomaly detection</li>
+<li>Designed scalable validation pipelines supporting large-scale catalog management operations</li>
 </ul>
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>TaskSage – AI Consultant</h3>
+
 <ul>
-<li>Developed an LLM-powered task prioritization system</li>
-<li>Reduced manual triage time by <strong>80%</strong></li>
+<li>Developed an LLM-powered task prioritization and productivity assistant for intelligent workflow management</li>
+<li>Implemented AI-driven decision support mechanisms to automate task ranking and scheduling</li>
+<li>Reduced manual triage effort by <strong>80%</strong> through automated prioritization strategies</li>
+<li>Designed conversational interfaces enabling personalized productivity recommendations</li>
 </ul>
 
 </div>
@@ -204,11 +293,17 @@ School Topper in Computer Science
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
 <ul>
+
+<li><strong>80+ Google Cloud Skill Badges</strong> – Cloud Infrastructure, AI/ML, Data Engineering, Generative AI</li>
 <li><strong>Global Markets Sales & Trading Analyst</strong> – Bank of America</li>
 <li><strong>Artificial Intelligence Fundamentals</strong> – IBM</li>
 <li><strong>Cloud Computing Foundations</strong> – Google Cloud</li>
+<li><strong>Data Analytics Job Simulation</strong> — Quantium</li>
 <li><strong>Data Analytics Job Simulation</strong> – Deloitte</li>
+<li><strong>GenAI Job Simulation</strong> – Boston Consulting Group</li>
+<li><strong>SQL Advanced</strong> – HackerRank</li>
 <li><strong>Data Quality & Consistency with ODE</strong> – Open Knowledge Brasil</li>
+
 </ul>
 
 </div>
