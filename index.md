@@ -52,7 +52,11 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>System Star</h3>
-<p><strong>Software Development Intern | Apr 2026 – Jun 2026</strong></p>
+<p>
+<strong>Software Development Intern</strong><br>
+Wilmington, Delaware, United States<br>
+Apr 2026 – Jun 2026
+</p>
 
 <ul>
 <li>Developed and enhanced <strong>backend services, internal tools, and automation systems</strong> supporting large-scale business operations and data-driven workflows</li>
@@ -67,7 +71,11 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>RECONZO</h3>
-<p><strong>Competitive Intelligence Intern | Dec 2025 – Feb 2026</strong></p>
+<p>
+<strong>Competitive Intelligence Intern</strong><br>
+Gurugram, Haryana, India<br>
+Dec 2025 – Feb 2026
+</p>
 
 <ul>
 <li>Built a data-driven competitive intelligence framework to analyze <strong>market pricing, promotional strategies, inventory trends, and competitor positioning</strong> across leading retail and quick-commerce platforms</li>
@@ -82,7 +90,11 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>Indian Institute of Technology Delhi</h3>
-<p><strong>AI/ML Intern | Jun 2025 – Jul 2025</strong></p>
+<p>
+<strong>AI/ML Intern</strong><br>
+New Delhi, India<br>
+Jun 2025 – Jul 2025
+</p>
 
 <ul>
 <li>Architected and deployed <strong>LibSenti</strong>, a transformer-based sentiment intelligence platform analyzing <strong>10,000+ institutional reviews</strong> for large-scale opinion mining and sentiment analytics</li>
@@ -98,7 +110,11 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>CEERAS</h3>
-<p><strong>Software Developer Intern | Feb 2025 – June 2025</strong></p>
+<p>
+<strong>Software Developer Intern</strong><br>
+Cuddapah, Andhra Pradesh, India<br>
+Feb 2025 – Jun 2025
+</p>
 
 <ul>
 <li>Engineered a gamified coding platform used by <strong>1,000+ kids</strong></li>
@@ -110,7 +126,11 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
 <h3>U-Knighted Chess Society</h3>
-<p><strong>Founder & President | Jan 2025 – Present</strong></p>
+<p>
+<strong>Founder & President</strong><br>
+New Delhi, India<br>
+Jan 2025 – Present
+</p>
 
 <ul>
 <li>Founded and scaled the college chess society to <strong>100+ active members</strong>, building one of the largest student-led strategic gaming communities on campus</li>
