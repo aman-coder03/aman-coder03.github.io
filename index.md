@@ -75,10 +75,15 @@ Apr 2026 – Jun 2026
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>RECONZO</h3>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <h3 style="margin:0;">RECONZO</h3>
+    <span style="color:#6b7280; font-size:0.95rem;">
+        Gurugram, Haryana, India
+    </span>
+</div>
+
 <p>
 <strong>Competitive Intelligence Intern</strong><br>
-Gurugram, Haryana, India<br>
 Dec 2025 – Feb 2026
 </p>
 
@@ -94,10 +99,15 @@ Dec 2025 – Feb 2026
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>Indian Institute of Technology Delhi</h3>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <h3 style="margin:0;">Indian Institute of Technology Delhi</h3>
+    <span style="color:#6b7280; font-size:0.95rem;">
+        New Delhi, India
+    </span>
+</div>
+
 <p>
 <strong>AI/ML Intern</strong><br>
-New Delhi, India<br>
 Jun 2025 – Jul 2025
 </p>
 
@@ -114,10 +124,15 @@ Jun 2025 – Jul 2025
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
-<h3>CEERAS</h3>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <h3 style="margin:0;">CEERAS</h3>
+    <span style="color:#6b7280; font-size:0.95rem;">
+        Cuddapah, Andhra Pradesh, India
+    </span>
+</div>
+
 <p>
 <strong>Software Developer Intern</strong><br>
-Cuddapah, Andhra Pradesh, India<br>
 Feb 2025 – Jun 2025
 </p>
 
@@ -130,10 +145,15 @@ Feb 2025 – Jun 2025
 
 <div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
-<h3>U-Knighted Chess Society</h3>
+<div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
+    <h3 style="margin:0;">U-Knighted Chess Society</h3>
+    <span style="color:#6b7280; font-size:0.95rem;">
+        New Delhi, India
+    </span>
+</div>
+
 <p>
 <strong>Founder & President</strong><br>
-New Delhi, India<br>
 Jan 2025 – Present
 </p>
 
