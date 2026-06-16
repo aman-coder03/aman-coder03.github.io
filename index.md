@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -847,7 +847,7 @@
     <div class="sidebar-top">
       <div class="avatar-wrap">AS</div>
       <div class="sidebar-name">Aman Srivastava</div>
-      <div class="sidebar-role">CS | AI/ML | Data Science</div>
+      <div class="sidebar-role">Software Dev | AI/ML | Data Science</div>
       <div class="sidebar-loc">📍 New Delhi, India</div>
 
       <div class="nav-label">Navigation</div>
