@@ -3,6 +3,31 @@ layout: page
 title: About Me
 ---
 
+<style>
+
+body {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #ffffff !important;
+}
+
+p,li {
+    color: #d1d5db !important;
+}
+
+a {
+    color: #60a5fa !important;
+}
+
+hr {
+    border-color: #222 !important;
+}
+
+</style>
+
 <div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
 
 <h1 style="margin-bottom: 0.5rem;">Aman Srivastava</h1>
@@ -30,7 +55,7 @@ title: About Me
 
 <hr style="margin: 2rem 0;">
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem; text-align: justify;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem; text-align: justify;">
 
 <p>
 I am a final-year Computer Science undergraduate at <strong>Maharaja Surajmal Institute of Technology</strong>. My experience spans <strong>Artificial Intelligence, Machine Learning, Data Science, and Software Development</strong>, with a strong focus on building scalable, production-grade systems.
@@ -49,7 +74,7 @@ Beyond technology, I have demonstrated strong leadership potential, strategic th
 
 <h2 style="margin-top:2.5rem;">💼 Experience</h2>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
     <h3 style="margin:0;">System Star</h3>
@@ -73,7 +98,7 @@ Apr 2026 – Jun 2026
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
     <h3 style="margin:0;">RECONZO</h3>
@@ -97,7 +122,7 @@ Dec 2025 – Feb 2026
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
     <h3 style="margin:0;">Indian Institute of Technology Delhi</h3>
@@ -122,7 +147,7 @@ Jun 2025 – Jul 2025
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
     <h3 style="margin:0;">CEERAS</h3>
@@ -143,7 +168,7 @@ Feb 2025 – Jun 2025
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
 <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.3rem;">
     <h3 style="margin:0;">U-Knighted Chess Society</h3>
@@ -169,7 +194,7 @@ Jan 2025 – Present
 
 <h2 style="margin-top:2.5rem;">🧠 Projects</h2>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>DIRS – Document Intelligence & Retrieval System</h3>
 
@@ -182,7 +207,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>ShadowVerse – Autonomous AI Agent</h3>
 
@@ -195,7 +220,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>Wafer Shield AI – Edge AI Semiconductor Defect Classification</h3>
 
@@ -208,7 +233,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>LibSenti – Transformer-Based Sentiment Intelligence Platform</h3>
 
@@ -223,7 +248,7 @@ Jan 2025 – Present
 
 
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>CLAMANS – Enterprise Leave Management System</h3>
 
@@ -236,7 +261,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>FinRisk – Financial Compliance Intelligence System</h3>
 
@@ -249,7 +274,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>SolarAI Assistant</h3>
 
@@ -262,7 +287,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>SmartMailer – AI Email Automation</h3>
 
@@ -275,7 +300,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>AutoCatalog</h3>
 
@@ -288,7 +313,7 @@ Jan 2025 – Present
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <h3>TaskSage – AI Consultant</h3>
 
@@ -303,7 +328,7 @@ Jan 2025 – Present
 
 <h2 style="margin-top:2.5rem;">🎓 Education</h2>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <p>
 <strong>Maharaja Surajmal Institute of Technology (GGSIPU)</strong><br>
@@ -312,7 +337,7 @@ B.Tech in Computer Science Engineering | 2023 – 2027
 
 </div>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <p>
 <strong>DAV Vasant Kunj</strong><br>
@@ -324,7 +349,7 @@ School Topper in Computer Science
 
 <h2 style="margin-top:2.5rem;">🏆 Achievements</h2>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2rem;">
 
 <ul>
 <li><strong>Globally Selected</strong> – Hacker House 2024, Bangkok</li>
@@ -335,7 +360,7 @@ School Topper in Computer Science
 
 <h2 style="margin-top:2.5rem;">📜 Certifications</h2>
 
-<div style="background:#f9fafb; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
+<div style="background:#111827; border:1px solid #222; padding:1.8rem; border-radius:14px; margin-bottom:2.5rem;">
 
 <ul>
 
