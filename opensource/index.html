@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Open Source Contributions</title>
+<meta name="description" content="Open source contributions by Aman Srivastava across scientific Python, ML, and developer tooling ecosystems." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:       #000000;
+    --bg-card:  #0d0d0d;
+    --border:   #1a1a1a;
+    --border-2: #242424;
+    --text:     #f0f0f0;
+    --text-2:   #a0a0a0;
+    --text-3:   #606060;
+    --accent:   #a3e635;
+    --accent-d: #84cc16;
+    --accent-glow: rgba(163,230,53,0.15);
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body:    'Inter', sans-serif;
+    --font-mono:    'JetBrains Mono', monospace;
+    --radius:   14px;
+    --radius-sm: 8px;
+    --transition: 0.22s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 2px; }
+
+  /* ── TOP NAV ── */
+  .topnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0.9rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-2);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-family: var(--font-display);
+    font-weight: 500;
+    transition: color var(--transition);
+  }
+  .back-btn:hover { color: var(--accent); }
+  .back-btn svg { transition: transform var(--transition); }
+  .back-btn:hover svg { transform: translateX(-3px); }
+
+  .nav-name {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-3);
+  }
+
+  /* ── PAGE WRAPPER ── */
+  .page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 2rem 6rem;
+  }
+
+  /* ── HERO ── */
+  .page-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.2rem;
+  }
+  .page-eyebrow::before {
+    content: '';
+    display: block;
+    width: 20px; height: 1px;
+    background: var(--accent);
+  }
+
+  .page-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+  }
+
+  .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1.5rem 0 2.5rem;
+  }
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .stat-num {
+    font-family: var(--font-display);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--text-3);
+    font-family: var(--font-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 0.2rem;
+  }
+  .stat-divider {
+    width: 1px; height: 40px;
+    background: var(--border-2);
+  }
+
+  /* ── ABOUT CARD ── */
+  .about-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.8rem 2rem;
+    margin-bottom: 3.5rem;
+  }
+  .about-card p {
+    color: var(--text-2);
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  .about-card p:last-child { margin-bottom: 0; }
+  .about-card strong { color: var(--text); font-weight: 600; }
+
+  /* ── SECTION LABEL ── */
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-3);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── ORG GRID ── */
+  .org-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .org-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.1rem 1.3rem;
+    text-decoration: none;
+    transition: all var(--transition);
+    position: relative;
+    overflow: hidden;
+  }
+  .org-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at left center, var(--accent-glow) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+  .org-card:hover {
+    border-color: rgba(163,230,53,0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  }
+  .org-card:hover::before { opacity: 1; }
+
+  .org-icon {
+    width: 38px; height: 38px;
+    border-radius: 9px;
+    background: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    flex-shrink: 0;
+    transition: background var(--transition);
+  }
+  .org-card:hover .org-icon {
+    background: var(--accent-glow);
+    border: 1px solid rgba(163,230,53,0.2);
+  }
+
+  .org-info { flex: 1; min-width: 0; }
+
+  .org-name {
+    font-family: var(--font-display);
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .org-repo {
+    font-size: 0.72rem;
+    color: var(--text-3);
+    font-family: var(--font-mono);
+    margin-top: 0.1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .org-arrow {
+    color: var(--text-3);
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    transition: color var(--transition), transform var(--transition);
+  }
+  .org-card:hover .org-arrow {
+    color: var(--accent);
+    transform: translateX(3px);
+  }
+
+  /* ── FADE IN ── */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.5s cubic-bezier(0.4,0,0.2,1), transform 0.5s cubic-bezier(0.4,0,0.2,1);
+  }
+  .fade-in.visible { opacity: 1; transform: none; }
+
+  /* ── FOOTER ── */
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    font-size: 0.75rem;
+    color: var(--text-3);
+    font-family: var(--font-mono);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 600px) {
+    .page { padding: 2.5rem 1.2rem 5rem; }
+    .org-grid { grid-template-columns: 1fr; }
+    .stat-row { gap: 1rem; }
+    .footer { flex-direction: column; gap: 0.3rem; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- TOP NAV -->
+<nav class="topnav">
+  <a href="/" class="back-btn">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    Back to Portfolio
+  </a>
+  <span class="nav-name">Aman Srivastava</span>
+</nav>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="fade-in">
+    <div class="page-eyebrow">Open Source</div>
+    <h1 class="page-title">Contributions</h1>
+
+    <div class="stat-row">
+      <div class="stat-item">
+        <div class="stat-num">24+</div>
+        <div class="stat-label">Merged PRs</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">11</div>
+        <div class="stat-label">Organizations</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-num">Global</div>
+        <div class="stat-label">Projects</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="about-card fade-in">
+    <p>Active contributor to <strong>production-grade scientific Python ecosystems</strong>, including neurophysiology analysis, photovoltaic modeling, scientific workflow systems, atmospheric mission support platforms, and quantum information theory libraries used in research and engineering environments.</p>
+    <p>My contributions strengthen <strong>numerical stability, API design correctness, visualization capabilities, exception semantics, logging behavior, distribution parameterization, and CI reliability</strong>, ensuring robust edge-case handling and type-safe interfaces while preserving strict backward compatibility.</p>
+    <p>Through close collaboration with core maintainers, I prioritize <strong>release hygiene, documentation integrity, test coverage expansion, input validation correctness, and incremental maintainable changes</strong>, delivering improvements that integrate cleanly into mature, widely-used scientific and mathematical codebases.</p>
+  </div>
+
+  <!-- ORG LIST -->
+  <div class="section-label fade-in">Organizations I have contributed to</div>
+
+  <div class="org-grid">
+
+    <a href="aiida/" class="org-card fade-in">
+      <div class="org-icon">⚛️</div>
+      <div class="org-info">
+        <div class="org-name">aiida-core</div>
+        <div class="org-repo">aiidateam/aiida-core</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="braindecode/" class="org-card fade-in">
+      <div class="org-icon">🧠</div>
+      <div class="org-info">
+        <div class="org-name">braindecode</div>
+        <div class="org-repo">braindecode/braindecode</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="causalml/" class="org-card fade-in">
+      <div class="org-icon">📊</div>
+      <div class="org-info">
+        <div class="org-name">causalml</div>
+        <div class="org-repo">uber/causalml</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="conda-smithy/" class="org-card fade-in">
+      <div class="org-icon">🐍</div>
+      <div class="org-info">
+        <div class="org-name">conda-smithy</div>
+        <div class="org-repo">conda-forge/conda-smithy</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="dipy/" class="org-card fade-in">
+      <div class="org-icon">🔬</div>
+      <div class="org-info">
+        <div class="org-name">dipy</div>
+        <div class="org-repo">dipy/dipy</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="holidays/" class="org-card fade-in">
+      <div class="org-icon">📅</div>
+      <div class="org-info">
+        <div class="org-name">holidays</div>
+        <div class="org-repo">vacanza/holidays</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="matplotlib/" class="org-card fade-in">
+      <div class="org-icon">📈</div>
+      <div class="org-info">
+        <div class="org-name">matplotlib</div>
+        <div class="org-repo">matplotlib/matplotlib</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="mne-python/" class="org-card fade-in">
+      <div class="org-icon">🧬</div>
+      <div class="org-info">
+        <div class="org-name">mne-python</div>
+        <div class="org-repo">mne-tools/mne-python</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="mss/" class="org-card fade-in">
+      <div class="org-icon">🌍</div>
+      <div class="org-info">
+        <div class="org-name">MSS</div>
+        <div class="org-repo">Open-MSS/MSS</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="pvlib/" class="org-card fade-in">
+      <div class="org-icon">☀️</div>
+      <div class="org-info">
+        <div class="org-name">pvlib-python</div>
+        <div class="org-repo">pvlib/pvlib-python</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+    <a href="toqito/" class="org-card fade-in">
+      <div class="org-icon">⚡</div>
+      <div class="org-info">
+        <div class="org-name">toqito</div>
+        <div class="org-repo">vprusso/toqito</div>
+      </div>
+      <span class="org-arrow">→</span>
+    </a>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <span>Aman Srivastava · amansri345@gmail.com</span>
+  <span>New Delhi, India</span>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-in').forEach((el, i) => {
+    el.style.transitionDelay = (i * 40) + 'ms';
+    observer.observe(el);
+  });
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.fade-in').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+    });
+  }
+</script>
+</body>
+</html>
