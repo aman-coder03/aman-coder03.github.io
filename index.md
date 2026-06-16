@@ -901,10 +901,9 @@
     <section id="about">
       <div class="section-eyebrow fade-in">About</div>
       <div class="about-card fade-in">
-        <p>I am a final-year Computer Science undergraduate at <strong>Maharaja Surajmal Institute of Technology</strong>. My experience spans <strong>Artificial Intelligence, Machine Learning, Data Science, and Software Development</strong>, with a strong focus on building scalable, production-grade systems.</p>
-        <p>I have worked across the full product and engineering lifecycle, from designing transformer-based NLP models and Retrieval-Augmented Generation (RAG) systems to developing backend services, automation platforms, competitive intelligence pipelines, and enterprise software solutions. My work includes building <strong>LLM-powered applications, sentiment intelligence platforms, document retrieval systems, workflow automation tools, and data-driven decision-support systems</strong>.</p>
-        <p>Beyond internships and projects, I am an active <strong>open-source contributor with 20+ merged pull requests across globally used projects</strong>, contributing to machine learning, scientific computing, visualization, and developer tooling ecosystems. I am particularly interested in <strong>AI Agents, Generative AI, Distributed Systems, Backend Architecture, and Applied Machine Learning</strong>.</p>
-        <p>Beyond technology, I have demonstrated strong leadership potential, strategic thinking, and performance under pressure through being <strong>recommended by the Services Selection Board (SSB) for Officer Entry into the Indian Armed Forces</strong>, a highly selective evaluation process focused on officer-like qualities, decision-making ability, teamwork, and mental robustness.</p>
+        <p>I am a final-year Computer Science undergraduate at Maharaja Surajmal Institute of Technology with interests in Artificial Intelligence, Machine Learning, Data Science, and Software Development. I enjoy building scalable, production-grade systems that combine intelligent decision-making with robust engineering.</p>
+        <p>My experience spans transformer-based NLP, Retrieval-Augmented Generation (RAG), AI agents, backend development, automation platforms, and enterprise software solutions. Over the years, I have built LLM-powered applications, sentiment intelligence platforms, document retrieval systems, and workflow automation tools across diverse domains.</p>
+        <p>Beyond technology, I was recommended by the Services Selection Board (SSB) for Officer Entry into the Indian Armed Forces, reflecting leadership, teamwork, and the ability to perform under pressure.</p>
       </div>
     </section>
 
