@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Aman Srivastava — CS | AI/ML | Data Science</title>
+<title>Aman Srivastava — Software Dev | AI/ML | Data Science</title>
 <meta name="description" content="Aman Srivastava — Computer Science undergraduate specializing in AI/ML, Data Science, and Software Development." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -886,7 +886,7 @@
           Available for opportunities
         </div>
         <h1 class="hero-name">Aman Srivastava<span class="cursor"></span></h1>
-        <p class="hero-sub">Computer Science&nbsp;&nbsp;·&nbsp;&nbsp;AI/ML&nbsp;&nbsp;·&nbsp;&nbsp;Data Science</p>
+        <p class="hero-sub">Software Dev&nbsp;&nbsp;·&nbsp;&nbsp;AI/ML&nbsp;&nbsp;·&nbsp;&nbsp;Data Science</p>
         <p class="hero-loc">📍 New Delhi, India</p>
         <div class="hero-ctas">
           <a href="/opensource" class="btn-primary">🌐 Open Source Contributions</a>
