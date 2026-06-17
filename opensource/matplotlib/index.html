@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>matplotlib Contributions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:       #000000;
+    --bg-card:  #0d0d0d;
+    --border:   #1a1a1a;
+    --border-2: #242424;
+    --text:     #f0f0f0;
+    --text-2:   #a0a0a0;
+    --text-3:   #606060;
+    --accent:   #a3e635;
+    --accent-d: #84cc16;
+    --accent-glow: rgba(163,230,53,0.15);
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body:    'Inter', sans-serif;
+    --font-mono:    'JetBrains Mono', monospace;
+    --radius:   14px;
+    --radius-sm: 8px;
+    --transition: 0.22s cubic-bezier(0.4,0,0.2,1);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border-2); border-radius: 2px; }
+
+  .topnav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+    padding: 0.9rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  .back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--text-3);
+    text-decoration: none;
+    font-size: 0.82rem;
+    font-family: var(--font-mono);
+    transition: color var(--transition);
+  }
+  .back-btn:hover { color: var(--accent); }
+  .back-btn svg { transition: transform var(--transition); }
+  .back-btn:hover svg { transform: translateX(-3px); }
+
+  .breadcrumb-sep { color: var(--border-2); font-size: 0.8rem; }
+  .breadcrumb-current { font-size: 0.82rem; font-family: var(--font-mono); color: var(--text-2); }
+
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 4rem 2rem 6rem;
+  }
+
+  .page-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  .page-eyebrow::before {
+    content: '';
+    display: block;
+    width: 20px; height: 1px;
+    background: var(--accent);
+  }
+
+  .page-repo {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--text-3);
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .page-repo a { color: var(--text-3); text-decoration: none; transition: color var(--transition); }
+  .page-repo a:hover { color: var(--accent); }
+
+  .pr-list { display: flex; flex-direction: column; gap: 1.2rem; }
+
+  .pr-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.8rem 2rem;
+    transition: border-color var(--transition), transform var(--transition);
+  }
+  .pr-card:hover { border-color: var(--border-2); transform: translateY(-2px); }
+
+  .pr-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .pr-number {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--accent);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.35rem;
+  }
+
+  .pr-title {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    line-height: 1.35;
+  }
+
+  .pr-merged {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-3);
+    padding: 0.25rem 0.7rem;
+    border: 1px solid var(--border-2);
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .pr-merged::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    flex-shrink: 0;
+  }
+
+  .pr-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.4rem;
+  }
+  .pr-bullets li {
+    font-size: 0.865rem;
+    color: var(--text-2);
+    line-height: 1.65;
+    padding-left: 1.1rem;
+    position: relative;
+  }
+  .pr-bullets li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 0.75rem;
+    top: 0.08em;
+  }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    background: var(--border);
+    color: var(--accent);
+    padding: 0.1em 0.4em;
+    border-radius: 4px;
+  }
+
+  .pr-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.1rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-2);
+    background: transparent;
+    color: var(--text-2);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    transition: all var(--transition);
+  }
+  .pr-link:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.5s cubic-bezier(0.4,0,0.2,1), transform 0.5s cubic-bezier(0.4,0,0.2,1);
+  }
+  .fade-in.visible { opacity: 1; transform: none; }
+
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 2rem;
+    font-size: 0.75rem;
+    color: var(--text-3);
+    font-family: var(--font-mono);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 600px) {
+    .page { padding: 2.5rem 1.2rem 5rem; }
+    .pr-header { flex-direction: column; gap: 0.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="topnav">
+  <a href="/opensource" class="back-btn">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    Open Source
+  </a>
+  <span class="breadcrumb-sep">/</span>
+  <span class="breadcrumb-current">matplotlib</span>
+</nav>
+
+<div class="page">
+
+  <div class="fade-in">
+    <div class="page-eyebrow">matplotlib Contributions</div>
+    <div class="page-repo">
+      <svg width="13" height="13" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+      <a href="https://github.com/matplotlib/matplotlib" target="_blank" rel="noopener">matplotlib/matplotlib</a>
+    </div>
+  </div>
+
+  <div class="pr-list">
+
+    <div class="pr-card fade-in">
+      <div class="pr-header">
+        <div>
+          <div class="pr-number">PR #31278</div>
+          <div class="pr-title">Fix clabel manual argument not accepting unit-typed coordinates</div>
+        </div>
+        <div class="pr-merged">Merged Mar 2026</div>
+      </div>
+      <ul class="pr-bullets">
+        <li>Added <code>self.axes.convert_xunits(x)</code> and <code>self.axes.convert_yunits(y)</code> calls in <code>add_label_near()</code> in <code>contour.py</code> before applying the transform, consistent with the pattern already used in <code>_base.py</code></li>
+        <li>The fix is a no-op when no unit converter is registered, so non-unit axes are completely unaffected</li>
+        <li>Filled in the existing <code>test_clabel</code> stub in <code>test_datetime.py</code> with a real test that verifies the label is placed correctly, asserting on both the label text and position</li>
+      </ul>
+      <a href="https://github.com/matplotlib/matplotlib/pull/31278" target="_blank" rel="noopener" class="pr-link">
+        View Pull Request ↗
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <span>Made by Aman Srivastava</span>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.fade-in').forEach((el, i) => {
+    el.style.transitionDelay = (i * 60) + 'ms';
+    observer.observe(el);
+  });
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('.fade-in').forEach(el => {
+      el.style.opacity = '1';
+      el.style.transform = 'none';
+    });
+  }
+</script>
+</body>
+</html>
