@@ -270,6 +270,31 @@
     <div class="pr-card fade-in">
       <div class="pr-header">
         <div>
+          <div class="pr-number">PR #912</div>
+          <div class="pr-title">Make meta-learners scikit-learn compliant via BaseEstimator</div>
+        </div>
+        <div class="pr-merged">Merged Jun 2026</div>
+      </div>
+      <ul class="pr-bullets">
+        <li>Made <code>BaseLearner</code> inherit <code>sklearn.base.BaseEstimator</code>, giving every subclass <code>get_params</code>/<code>set_params</code> for free and enabling <code>Pipeline</code> and <code>GridSearchCV</code> compatibility out of the box</li>
+        <li>Refactored all five learner families (S/T/X/R/DR) to store constructor arguments verbatim in <code>__init__</code> with no logic or <code>deepcopy</code>; all model construction deferred to <code>fit()</code></li>
+        <li>Replaced the bespoke <code>_unfitted_clone</code>/<code>_model_*_template</code> machinery introduced in #910 with a direct <code>clone(self)</code> call in the bootstrap path, eliminating the regression where <code>clone(self, safe=False)</code> deepcopied fitted models on every bootstrap iteration</li>
+        <li>Fixed <code>XGBRRegressor</code> to use an explicit named-parameter signature with <code>xgb_kwargs=None</code> instead of <code>*args/**kwargs</code>, deferring all <code>XGBRegressor</code> construction to <code>fit()</code> so <code>get_params()</code>/<code>clone()</code> work correctly</li>
+        <li>Moved learner-presence validation out of <code>__init__</code> into <code>fit()</code> across all learners, since <code>__init__</code>-time assertions break <code>clone()</code></li>
+        <li>Added <code>self.propensity = {}</code> sentinel to <code>BaseXLearner</code> and <code>BaseDRLearner</code> so <code>estimate_ate(pretrain=True)</code> before <code>fit()</code> raises a clean <code>ValueError</code> instead of <code>AttributeError</code></li>
+        <li>Fixed <code>BaseTClassifier.predict</code> fail-fast ordering to match <code>BaseTLearner.predict</code>, checking mutually exclusive flags at the top before any computation</li>
+        <li>Made <code>fit()</code> return <code>self</code> across all learners for <code>Pipeline</code>/<code>GridSearchCV</code> method chaining; nested params now visible via <code>get_params</code> (e.g. <code>learner__max_depth</code>)</li>
+        <li>Added 31 sklearn compliance tests to <code>test_meta_learners.py</code> covering <code>clone()</code>/<code>get_params()</code> round-trips for all 8 learner variants, <code>fit()</code> returns <code>self</code>, <code>XGBRRegressor</code> bootstrap CI path, bit-identical equivalence guards, and propensity sentinel consistency</li>
+        <li>Addressed all blocking and non-blocking maintainer review comments across 6+ review rounds, including merge conflict resolution, Cython extension troubleshooting on Windows, architecture consistency, and statistical correctness</li>
+      </ul>
+      <a href="https://github.com/uber/causalml/pull/912" target="_blank" rel="noopener" class="pr-link">
+        View Pull Request ↗
+      </a>
+    </div>
+
+    <div class="pr-card fade-in">
+      <div class="pr-header">
+        <div>
           <div class="pr-number">PR #886</div>
           <div class="pr-title">Add Post-Fit Confidence Intervals to BaseTLearner via store_bootstraps and return_ci</div>
         </div>
