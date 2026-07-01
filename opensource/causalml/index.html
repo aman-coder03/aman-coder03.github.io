@@ -268,6 +268,31 @@
   <div class="pr-list">
 
     <div class="pr-card fade-in">
+     <div class="pr-header">
+       <div>
+         <div class="pr-number">PR #901</div>
+         <div class="pr-title">Add native Polars DataFrame, Series, and LazyFrame support for all meta-learners</div>
+       </div>
+       <div class="pr-merged">In Review Jun 2026</div>
+     </div>
+     <ul class="pr-bullets">
+       <li>Added <code>collect_if_lazy(X)</code>, <code>n_rows(X)</code>, <code>filter_mask()</code>, <code>filter_index()</code>, <code>prepend_column()</code>, <code>concat_treatment_col()</code>, and <code>to_numpy()</code> to <code>utils.py</code> — a minimal abstraction layer that dispatches to the correct numpy/pandas/polars operation based on input type, with no external Polars dependency when it is not installed</li>
+       <li>Applied the native-X contract across all five learner families (S/T/X/R/DR): <code>collect_if_lazy(X)</code> called once at the top of every public method; feature matrices kept in their native format end-to-end; <code>treatment</code>/<code>y</code>/<code>p</code>/<code>sample_weight</code> normalised to numpy at method entry only</li>
+       <li>Fixed <code>BaseLearner.bootstrap()</code> and <code>_fit_bootstrap_clone()</code> in <code>base.py</code> to resample via <code>filter_index(X, idxs)</code> and <code>n_rows(X)</code> instead of <code>X[idxs]</code>/<code>X.shape[0]</code>, fixing a regression for both pandas and polars DataFrames in the <code>store_bootstraps=True → predict(return_ci=True)</code> path</li>
+       <li>Fixed <code>BaseLearner._set_propensity_models()</code> to filter X natively via <code>filter_mask</code> and pass it as-is to sklearn and XGBoost, both of which accept pandas and Polars DataFrames natively at their pinned minimum versions (sklearn ≥1.6, XGBoost ≥3.1)</li>
+       <li>Removed top-level <code>from causalml.inference.meta.utils import convert_pd_to_np</code> from <code>propensity.py</code> which caused a circular import on cold import of <code>causalml.propensity</code>; kept <code>convert_pd_to_np</code> as a deprecated backward-compat alias in <code>utils.py</code> so <code>explainer.py</code> and other existing callers are unaffected</li>
+       <li>Fixed X-learner <code>model_mu_c</code> to be fitted once on the full control set and exposed as a shared-reference dict <code>{group: self.model_mu_c}</code>; <code>self.var_c</code> stored as a finite scalar; same pattern applied to <code>BaseXClassifier</code>; removed crash-causing <code>X[bool_mask]</code> preamble in both <code>predict()</code> overrides</li>
+       <li>Fixed DR-learner KFold cross-fit partitions to slice X natively via <code>filter_index(X, idx)</code> across all three cross-fit folds; fixed <code>X = collect_if_lazy(X)</code> buried inside the <code>fit()</code> docstring (dead text, never executed) and moved it to the method body</li>
+       <li>Fixed S-learner <code>np.hstack</code> replaced with type-safe <code>concat_treatment_col</code>/<code>prepend_column</code>; <code>prepend_column</code> converts to numpy for pandas DataFrames to avoid mixed int/str column name errors; control/treatment counterfactual frames hoisted above the per-group loop (2·N copies → 2)</li>
+       <li>Declared <code>polars>=1.0.0</code> as <code>[project.optional-dependencies] polars</code> and self-referenced in the <code>test</code> extra so <code>pytest.importorskip</code> actually runs in CI; documented LightGBM caveat (known sklearn-API bug with Polars, lightgbm-org/LightGBM#6849)</li>
+       <li>Added 35 Polars support tests to <code>tests/test_polars_support.py</code> covering numpy == pandas == polars == LazyFrame equivalence for all five learner families and their classifier variants (<code>BaseTClassifier</code>, <code>BaseSClassifier</code>, <code>BaseXClassifier</code>), <code>store_bootstraps=True → predict(return_ci=True)</code> with DataFrame X, DR-classifier polars path, mixed inputs, and fit-on-numpy/predict-on-polars edge cases; addressed all blocking and non-blocking maintainer review comments across 8+ review rounds including merge conflict resolution across concurrent upstream refactors (#912, #910, #886)</li>
+     </ul>
+     <a href="https://github.com/uber/causalml/pull/901" target="_blank" rel="noopener" class="pr-link">
+       View Pull Request ↗
+     </a>
+   </div>
+
+    <div class="pr-card fade-in">
       <div class="pr-header">
         <div>
           <div class="pr-number">PR #912</div>
