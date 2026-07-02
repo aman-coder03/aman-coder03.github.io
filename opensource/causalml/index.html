@@ -270,6 +270,29 @@
     <div class="pr-card fade-in">
      <div class="pr-header">
        <div>
+         <div class="pr-number">PR #921</div>
+         <div class="pr-title">Polish Polars support and add bootstrap CI test coverage</div>
+       </div>
+       <div class="pr-merged">Merged July 2026</div>
+     </div>
+   
+     <ul class="pr-bullets">
+       <li>Hoisted <code>X_new_c</code> and <code>X_new_t</code> construction outside the S-Learner per-group loop, eliminating redundant matrix allocations and restoring the original optimization</li>
+       <li>Simplified the X-Learner by reusing the existing <code>y_filt_np</code> array instead of performing redundant filtering, avoiding unnecessary conversions at the scikit-learn boundary</li>
+       <li>Replaced the hardcoded <code>RANDOM_STATE</code> in the Polars test suite with the shared <code>RANDOM_SEED</code> constant from <code>tests.const</code> to align with project conventions</li>
+       <li>Added regression tests covering the <code>store_bootstraps=True → predict(return_ci=True)</code> workflow for both pandas and Polars DataFrame inputs, ensuring the previously fixed bootstrap path remains protected by CI</li>
+       <li>Added dedicated Polars compatibility tests for <code>BaseDRClassifier</code>, covering a previously untested execution path and expanding native Polars test coverage</li>
+       <li>Addressed all four follow-up items from Issue <code>#920</code>, improving performance, simplifying implementation, and strengthening regression coverage without introducing any breaking changes</li>
+     </ul>
+   
+     <a href="https://github.com/uber/causalml/pull/921" target="_blank" rel="noopener" class="pr-link">
+       View Pull Request ↗
+     </a>
+   </div>
+
+    <div class="pr-card fade-in">
+     <div class="pr-header">
+       <div>
          <div class="pr-number">PR #901</div>
          <div class="pr-title">Add native Polars DataFrame, Series, and LazyFrame support for all meta-learners</div>
        </div>
